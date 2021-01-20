@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22d3198d-8463-4647-b81d-64336c048e1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Ilya.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoBold/RobotoBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoBold/RobotoBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoBold/RobotoBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_libs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_libs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_mixins/_font-face.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611174433571</updated>
-      <workItem from="1611174434710" duration="10676000" />
+      <workItem from="1611174434710" duration="10726000" />
+      <workItem from="1611185466446" duration="65000" />
     </task>
     <servers />
   </component>
@@ -99,7 +84,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
