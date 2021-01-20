@@ -1,53 +1,136 @@
 @import "vars";
 @import "fonts";
 @import "libs";
+@import "parts/footer/footer";
 
 ::placeholder {
-	color: #666;
+  color: #666;
 }
 
 ::selection {
-	background-color: $accent;
-	color: #fff;
+  background-color: $accent;
+  color: #fff;
 }
 
 body {
-	font-size: 16px;
-	min-width: 320px;
-	position: relative;
-	line-height: 1.65;
-	font-family: $default-font;
-	overflow-x: hidden;
-	color: $text;
-	input, textarea {
-		border: #666 1px solid;
-		outline: none;
-		&:focus:required:invalid {
-			border-color: red;
-		}
-		&:required:valid {
-			border-color: green;
-		}
-	}
+  font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.5;
+  font-family: $default-font;
+  overflow-x: hidden;
+  color: $text;
+
+  input, textarea {
+    border: #666 1px solid;
+    outline: none;
+
+    &:focus:required:invalid {
+      border-color: red;
+    }
+
+    &:required:valid {
+      border-color: green;
+    }
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+.main-content {
+
 }
 
 .img-responsive {
-	display: block;
-	max-width: 100%;
-	height: auto;
-	&.img-width {
-		width: 100%;
-	}
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  &.img-width {
+    width: 100%;
+  }
 }
 
 .text-center {
-	text-align: center;
+  text-align: center;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.list-style-arrow {
+  list-style: none;
+
+  li {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      content: '\203A';
+      left: 0;
+      top: 0;
+    }
+  }
+}
+
+.list-inline {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-white {
+  color: #FFF;
 }
 
 b, strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 
+.button {
+  min-width: 250px;
+  text-align: center;
+  @include adaptive-size(padding-top, 20, 17);
+  @include adaptive-size(padding-bottom, 20, 17);
+  @include adaptive-size(padding-left, 50, 30);
+  @include adaptive-size(padding-right, 50, 30);
+  @include adaptive-size(font-size, 17, 15);
+  font-weight: 600;
+  border: none;
 
+  &--accent {
+    color: #FFF;
+    background: $accent;
+  }
+
+  &--icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      @include adaptive-size(margin-left, 20, 15);
+    }
+  }
+}
 
 @import "media"; // Always at the end

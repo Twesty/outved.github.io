@@ -1,11 +1,15 @@
-$default-font: "roboto-example", sans-serif;
-$accent: orange;
-$text: #333;
+$default-font: "Fira Sans", sans-serif;
+$secondary-font: "RotondaC", sans-serif;
+$accent: #17A8E0;
+$text: #242431;
 
 // Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
-$grid-gutter-width: 30px;
+$grid-gutter-width: 20px;
 $grid-columns: 12;
-$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
-$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+$grid-breakpoints: (xs: 0, xsm: 360, sm: 576px, md: 768px, lg: 1024px, xl: 1280px, xxl: 1440px);
+$container-max-widths: (xsm: 334, sm: 540px, md: 720px, lg: 960px, xl: 1170px, xxl: 1310px);
+$breadcrumb-divider: quote("▪");
 
 $gutter: $grid-gutter-width;
+
+@import "_mixins/adaptive-size.scss";

@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22d3198d-8463-4647-b81d-64336c048e1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Ilya.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/@1x/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/@2x/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/_src/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/_src/preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/preview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoBold/RobotoBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoBold/RobotoBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoBold/RobotoBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.woff" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_libs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_libs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_mixins/_font-face.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +32,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -31,16 +47,22 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/scss/parts/footer" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebPR\Outved\app\scss\parts\footer" />
+      <recent name="D:\WebPR\Outved\app\img\footer" />
       <recent name="D:\WebPR\Outved\app\img" />
       <recent name="D:\WebPR\Outved\app\img\favicon" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WebPR\Outved" />
+      <recent name="D:\WebPR\Outved\app\scss\parts\footer" />
+      <recent name="D:\WebPR\Outved\app\img\payments" />
+      <recent name="D:\WebPR\Outved\app\fonts\RobontaC" />
+      <recent name="D:\WebPR\Outved\app\fonts\FiraSans" />
+      <recent name="D:\WebPR\Outved\app\scss\pages\page-home" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -65,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611174433571</updated>
-      <workItem from="1611174434710" duration="1448000" />
+      <workItem from="1611174434710" duration="10676000" />
     </task>
     <servers />
   </component>

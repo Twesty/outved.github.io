@@ -1,4 +1,5 @@
-@import "vars";
+@import "../../vars";
+@import "../../../libs/bootstrap/scss/mixins/breakpoints";
 
 // ≥1440px
 @include media-breakpoint-down(xl) {
@@ -17,5 +18,10 @@
 
 // ≥768px
 @include media-breakpoint-down(sm) {
+
+}
+
+// ≥360px
+@include media-breakpoint-down(xs) {
 
 }

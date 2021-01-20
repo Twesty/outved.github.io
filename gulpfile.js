@@ -37,7 +37,7 @@ gulp.task('styles', function() {
 	.pipe(browserSync.stream())
 });
 
-// JS
+// Main scripts
 gulp.task('scripts', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
@@ -49,6 +49,20 @@ gulp.task('scripts', function() {
 	.pipe(browserSync.reload({ stream: true }))
 });
 
+// Pages Scripts
+
+{
+	gulp.task('page-home-scripts', function() {
+		return gulp.src([
+			'app/js/src/pages/page-home/home.js',
+		])
+		.pipe(concat('home.min.js'))
+		// .pipe(uglify()) // Mifify js (opt.)
+		.pipe(gulp.dest('app/js/dest/pages/page-home'))
+		.pipe(browserSync.reload({ stream: true }))
+	});
+}
+
 // HTML Live Reload
 gulp.task('code', function() {
 	return gulp.src('app/*.html')
@@ -59,6 +73,15 @@ gulp.task('watch', function() {
 	gulp.watch('app/'+syntax+'/**/*.'+syntax+'', gulp.parallel('styles'));
 	gulp.watch(['libs/**/*.js', 'app/js/common.js'], gulp.parallel('scripts'));
 	gulp.watch('app/*.html', gulp.parallel('code'));
+
+	// Page scripts
+	gulp.watch(['app/js/src/pages/page-home/home.js'], gulp.parallel('page-home-scripts'));
 });
 
-gulp.task('default', gulp.parallel('styles', 'scripts', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel(
+	'styles',
+	'scripts',
+	'page-home-scripts',
+	'browser-sync',
+	'watch'
+));
