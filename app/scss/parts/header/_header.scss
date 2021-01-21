@@ -1,0 +1,53 @@
+.header {
+  &__top {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #FAFAFA;
+    color: #A2ABAF;
+    font-size: 14px;
+    .list__item {
+      &:not(:last-child) {
+        @include adaptive-size(margin-right, 70, 55);
+      }
+    }
+  }
+  &__middle {
+    @include adaptive-size(padding-top, 15, 20);
+    @include adaptive-size(padding-bottom, 15, 20);
+  }
+  &__logo {
+    @include adaptive-size(max-height, 60, 45);
+  }
+  &__menu {
+    font-size: 14px;
+    color: #242431;
+    .list__item {
+      @include adaptive-size(margin-right, 50, 0);
+    }
+  }
+}
+
+.language {
+  position: relative;
+  cursor: pointer;
+  &__current {
+    display: flex;
+  }
+  &__items {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: calc(100% + 5px);
+    transform: translateX(-50%);
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    margin-bottom: 0;
+    list-style: none;
+    background: #FFF;
+  }
+  &__item {
+
+  }
+}
+
+@import "header-responsive";

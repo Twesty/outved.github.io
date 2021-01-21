@@ -1,7 +1,126 @@
 @import "../../vars";
 
 .page-home {
+  &__cover {
+    @include adaptive-size(padding-top, 140, 70);
+    @include adaptive-size(padding-bottom, 405, 30);
+  }
+}
 
+.cover {
+  background-position: center;
+  background-size: calc(100% + 50px);
+  color: #FFF;
+  &__title {
+    font-family: $secondary-font;
+    @include adaptive-size(font-size, 58, 37);
+    @include adaptive-size(margin-bottom, 30, 20);
+  }
+  &__subtitle {
+    @include adaptive-size(font-size, 44, 25);
+  }
+  &__tabs {
+    display: flex;
+    align-items: center;
+    @include adaptive-size(margin-top, 100, 30);
+  }
+  &__tab {
+    flex-grow: 1;
+    height: 100%;
+  }
+}
+
+.cover-tab {
+  position: relative;
+  display: flex;
+  width: calc(100% / 3);
+  height: 100%;
+  cursor: pointer;
+  @include adaptive-size(padding-top, 40, 15);
+  @include adaptive-size(padding-bottom, 40, 15);
+  @include adaptive-size(padding-left, 30, 15);
+  @include adaptive-size(padding-right, 30, 15);
+  &:nth-child(1) {
+    background: #082B63;
+    .cover-tab__content {
+      background: #082B63;
+    }
+  }
+  &:nth-child(2) {
+    background: #17A8E0;
+    .cover-tab__number {
+      color: #74CBEC;
+    }
+    .cover-tab__content {
+      background: #17A8E0;
+    }
+  }
+  &:nth-child(3) {
+    background: #FAFAFA;
+    .cover-tab__number {
+      color: #BCBCC0;
+    }
+    .cover-tab__content {
+      background: #FAFAFA;
+    }
+    color: #424257;
+  }
+  &__number {
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(255,255,255,.25);
+  }
+  &__title {
+    @include adaptive-size(font-size, 18, 15);
+    font-weight: 700;
+  }
+  &__expand-button {
+    margin-left: 40px;
+    border: none;
+    background: none;
+    &:focus {
+      outline: none;
+    }
+    svg {
+      path {
+        opacity: 1;
+        transition: opacity .2s;
+      }
+    }
+    &.active {
+      svg {
+        path {
+          &:nth-child(3) {
+            opacity: 0;
+            transition: opacity .2s;
+          }
+        }
+      }
+    }
+  }
+  &__content {
+    position: absolute;
+    top: calc(100% - 1px);
+    display: none;
+    left: 0;
+    right: 0;
+    @include adaptive-size(padding-top, 10, 15);
+    @include adaptive-size(padding-bottom, 30, 15);
+    @include adaptive-size(padding-right, 40, 15);
+    @include adaptive-size(padding-left, 55, 15);
+    @include adaptive-size(font-size, 16, 14);
+    font-weight: 300;
+    ul {
+      padding-left: 0;
+      list-style: disc;
+      li {
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
 }
 
 @import "home-responsive";
