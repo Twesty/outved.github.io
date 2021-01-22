@@ -34,6 +34,27 @@
     @include adaptive-size(padding-top, 130, 55);
     @include adaptive-size(padding-bottom, 100, 70);
   }
+
+  &__how-long {
+    @include adaptive-size(padding-top, 75, 70);
+  }
+
+  &__something-wrong {
+    @include adaptive-size(padding-top, 130, 70);
+  }
+
+  &__ready {
+    @include adaptive-size(padding-top, 120, 60);
+  }
+
+  &__international {
+    @include adaptive-size(margin-top, 120, 70);
+    @include adaptive-size(margin-bottom, 120, 70);
+  }
+
+  &__clients {
+    @include adaptive-size(margin-bottom, 120, 70);
+  }
 }
 
 .cover {
@@ -329,8 +350,33 @@
   }
 }
 
-.tree-month {
-  &__illustraion {
+.text-block {
+  &--right {
+    .text-block__wrap {
+      flex-direction: row;
+    }
+  }
+
+  &--left {
+    .text-block__wrap {
+      flex-direction: row-reverse;
+    }
+
+    .text-block__content {
+      padding-left: 15px;
+    }
+
+    .text-block__image {
+      padding-right: 0;
+      padding-left: 40px;
+    }
+  }
+
+  &--with-image {
+
+  }
+
+  &__image {
     padding-right: 40px;
   }
 
@@ -346,7 +392,8 @@
   }
 
   &__p {
-
+    @include adaptive-size(margin-top, 40, 20);
+    @include adaptive-size(margin-bottom, 40, 20);
   }
 
   &__ul {
@@ -359,12 +406,14 @@
   background-position: center;
   background-size: 100%;
   background-color: #F9FAFB;
+
   &__title {
     text-align: center;
     font-weight: 400;
     @include adaptive-size(margin-bottom, 40, 20);
     @include adaptive-size(font-size, 38, 20);
   }
+
   &__tiles {
     &--2-rows {
       display: flex;
@@ -372,9 +421,11 @@
       justify-content: space-between;
     }
   }
+
   &__tile {
 
   }
+
   &__tile-wrap {
     flex-grow: 1;
     width: 100%;
@@ -395,6 +446,7 @@
   color: #FFF;
   z-index: 1;
   overflow: hidden;
+
   &:before {
     position: absolute;
     content: '';
@@ -405,6 +457,7 @@
     background: rgba(21, 67, 142, 0.95);
     z-index: -1;
   }
+
   &__number {
     position: absolute;
     @include adaptive-size(top, 50, 45);
@@ -415,33 +468,167 @@
     @include adaptive-size(font-size, 24, 16);
     line-height: 1;
   }
+
   &__title {
     margin-bottom: 20px;
     color: #FFF;
     @include adaptive-size(font-size, 24, 16);
     font-weight: 700;
   }
+
   &__ul {
     @include adaptive-size(font-size, 18, 15);
+
     a {
       text-decoration: underline;
     }
+
     li {
       margin-bottom: 15px;
     }
-    &--2-columns{
+
+    &--2-columns {
       display: flex;
       flex-wrap: wrap;
+
       li {
         width: 40%;
       }
     }
   }
+
   &__dots {
     position: absolute;
     bottom: 0;
     right: 0;
     transform: translate(-5%, 12%);
+  }
+}
+
+.international {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+  z-index: 1;
+  @include adaptive-size(padding-bottom, 110, 60);
+  @include adaptive-size(padding-top, 170, 70);
+  @include adaptive-size(padding-left, 100, 30);
+  @include adaptive-size(padding-right, 100, 30);
+
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(179.88deg, rgba(48, 120, 201, 0.85) 0.1%, rgba(15, 18, 46, 0.85) 99.9%);
+    z-index: -1;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    font-family: $secondary-font;
+    @include adaptive-size(font-size, 44, 25);
+    @include adaptive-size(margin-bottom, 90, 20);
+
+    svg {
+      margin-right: 70px;
+    }
+  }
+
+  &__stats {
+
+  }
+
+  &__stat {
+    display: flex;
+    align-items: center;
+  }
+
+  &__stat-value {
+    margin-right: 20px;
+    color: $accent;
+    @include adaptive-size(font-size, 48, 30);
+    font-family: $secondary-font;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: $accent;
+  }
+
+  &__stat-title {
+    @include adaptive-size(font-size, 18, 15);
+    font-weight: 300;
+  }
+}
+
+.clients {
+  &__header {
+
+  }
+
+  &__title {
+    font-family: $secondary-font;
+    @include adaptive-size(font-size, 44, 25);
+    @include adaptive-size(margin-bottom, 40, 25);
+  }
+
+  &__subtitle {
+    @include adaptive-size(font-size, 18, 15);
+  }
+
+  &__content {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include adaptive-size(margin-top, 40, 25);
+    @include adaptive-size(padding-top, 40, 25);
+    @include adaptive-size(padding-bottom, 20, 0);
+    @include adaptive-size(padding-left, 45, 20);
+    @include adaptive-size(padding-right, 45, 20);
+    background-color: #FFF;
+    box-shadow: 12px 12px 35px rgba(0, 0, 0, 0.08);
+  }
+
+  &__content-title {
+    @include adaptive-size(font-size, 18, 15);
+    @include adaptive-size(margin-bottom, 40, 20);
+    color: #424257;
+  }
+
+  &__countries {
+    display: flex;
+    align-items: center;
+  }
+
+  &__countries {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-height: 480px;
+  }
+
+  &__country {
+    @include adaptive-size(min-width, 165, 125);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__country-flag {
+    width: 20px;
+    margin-right: 15px;
+  }
+
+  &__country-name {
+    @include adaptive-size(font-size, 18, 15);
   }
 }
 
