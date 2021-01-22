@@ -5,12 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/pages/page-home/home.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/pages/page-home/home.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/cover/cover-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/cover/cover-bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/dest/pages/page-home/home.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/dest/pages/page-home/home.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/src/pages/page-home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/src/pages/page-home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/pages/page-home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/pages/page-home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/parts/footer/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/parts/footer/_footer.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,22 +37,23 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/img/home/cover" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/img/home/services" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WebPR\Outved\app\img\home\cover" />
-      <recent name="D:\WebPR\Outved\app\img" />
-      <recent name="D:\WebPR\Outved\app\scss\parts\header" />
-      <recent name="D:\WebPR\Outved\app\scss\parts\footer" />
-      <recent name="D:\WebPR\Outved\app\img\payments" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WebPR\Outved\app\scss\parts\footer" />
       <recent name="D:\WebPR\Outved\app\img\footer" />
       <recent name="D:\WebPR\Outved\app\img" />
       <recent name="D:\WebPR\Outved\app\img\favicon" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebPR\Outved\app\img\home\services" />
+      <recent name="D:\WebPR\Outved\app\img\home\tree-month" />
+      <recent name="D:\WebPR\Outved\app\img" />
+      <recent name="D:\WebPR\Outved\app\img\home\outved-its" />
+      <recent name="D:\WebPR\Outved\app\img\home\cover" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -80,7 +80,9 @@
       <updated>1611174433571</updated>
       <workItem from="1611174434710" duration="10726000" />
       <workItem from="1611185466446" duration="82000" />
-      <workItem from="1611190319897" duration="6340000" />
+      <workItem from="1611190319897" duration="6377000" />
+      <workItem from="1611213832808" duration="4000" />
+      <workItem from="1611281757966" duration="7985000" />
     </task>
     <servers />
   </component>

@@ -58,7 +58,8 @@ a {
 }
 
 .main-content {
-
+  background-position: center;
+  background-size: 100%;
 }
 
 .img-responsive {
@@ -134,6 +135,12 @@ b, strong {
   flex-grow: 1;
 }
 
+.color {
+  &--accent {
+    color: $accent;
+  }
+}
+
 .button {
   min-width: 250px;
   text-align: center;
@@ -161,6 +168,77 @@ b, strong {
 
     svg {
       @include adaptive-size(margin-left, 20, 15);
+    }
+  }
+}
+
+.custom-input {
+  position: relative;
+  background: #EBEBEB;
+  &:before {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    content: '■';
+    color: #5E5E5E;
+  }
+  input {
+    width: 100%;
+    @include adaptive-size(padding-top, 20, 15);
+    @include adaptive-size(padding-bottom, 20, 15);
+    @include adaptive-size(padding-left, 25, 20);
+    @include adaptive-size(padding-right, 55, 45);
+    @include adaptive-size(font-size, 16, 15);
+    font-weight: 300;
+    border: none;
+    line-height: 1;
+    color: #5A606C;
+    background: none;
+    &::placeholder {
+      @include adaptive-size(font-size, 16, 15);
+      font-weight: 300;
+      color: #5A606C;
+    }
+  }
+}
+
+.section-bar {
+  width: 65px;
+  height: 4px;
+  @include adaptive-size(margin-bottom, 30, 20);
+  background: $accent;
+}
+
+.custom-ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  &--disc {
+    li {
+      position: relative;
+      @include adaptive-size(padding-left, 33, 15);
+      &:before {
+        position: absolute;
+        top: 0.5em;
+        left: 0;
+        content: '';
+        @include adaptive-size(width, 8, 5);
+        @include adaptive-size(height, 8, 5);
+        background: $accent;
+        border-radius: 50%;
+      }
+    }
+  }
+  &--check-mark {
+    li {
+      display: flex;
+      align-items: center;
+      @include adaptive-size(margin-bottom, 30, 20);
+    }
+    svg {
+      @include adaptive-size(margin-right, 20, 15);
+      @include adaptive-size(width, 28, 15);
     }
   }
 }

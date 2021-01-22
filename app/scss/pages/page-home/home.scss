@@ -5,25 +5,59 @@
     @include adaptive-size(padding-top, 140, 70);
     @include adaptive-size(padding-bottom, 405, 30);
   }
+
+  &__diagnostic-request {
+    position: relative;
+    top: -195px;
+    margin-bottom: -115px;
+  }
+
+  &__outved-its {
+    @include adaptive-size(padding-top, 120, 120);
+    @include adaptive-size(padding-bottom, 120, 170);
+  }
+
+  &__why-we {
+    @include adaptive-size(padding-top, 120, 50);
+    @include adaptive-size(padding-bottom, 90, 45);
+  }
+
+  &__we-help-you {
+    @include adaptive-size(padding-bottom, 120, 75);
+  }
+
+  &__tree-month {
+    @include adaptive-size(padding-bottom, 75, 65);
+  }
+
+  &__services {
+    @include adaptive-size(padding-top, 130, 55);
+    @include adaptive-size(padding-bottom, 100, 70);
+  }
 }
 
 .cover {
   background-position: center;
   background-size: calc(100% + 50px);
   color: #FFF;
+
   &__title {
     font-family: $secondary-font;
     @include adaptive-size(font-size, 58, 37);
     @include adaptive-size(margin-bottom, 30, 20);
   }
+
   &__subtitle {
     @include adaptive-size(font-size, 44, 25);
   }
+
   &__tabs {
     display: flex;
     align-items: center;
+    padding-left: 0;
     @include adaptive-size(margin-top, 100, 30);
   }
+
   &__tab {
     flex-grow: 1;
     height: 100%;
@@ -40,54 +74,69 @@
   @include adaptive-size(padding-bottom, 40, 15);
   @include adaptive-size(padding-left, 30, 15);
   @include adaptive-size(padding-right, 30, 15);
+
   &:nth-child(1) {
     background: #082B63;
+
     .cover-tab__content {
       background: #082B63;
     }
   }
+
   &:nth-child(2) {
     background: #17A8E0;
+
     .cover-tab__number {
       color: #74CBEC;
     }
+
     .cover-tab__content {
       background: #17A8E0;
     }
   }
+
   &:nth-child(3) {
     background: #FAFAFA;
+
     .cover-tab__number {
       color: #BCBCC0;
     }
+
     .cover-tab__content {
       background: #FAFAFA;
     }
+
     color: #424257;
   }
+
   &__number {
     margin-right: 15px;
     font-size: 18px;
     font-weight: 700;
-    color: rgba(255,255,255,.25);
+    color: rgba(255, 255, 255, .25);
   }
+
   &__title {
     @include adaptive-size(font-size, 18, 15);
     font-weight: 700;
   }
+
   &__expand-button {
     margin-left: 40px;
     border: none;
     background: none;
+
     &:focus {
       outline: none;
     }
+
     svg {
       path {
         opacity: 1;
         transition: opacity .2s;
       }
     }
+
     &.active {
       svg {
         path {
@@ -99,6 +148,7 @@
       }
     }
   }
+
   &__content {
     position: absolute;
     top: calc(100% - 1px);
@@ -111,15 +161,287 @@
     @include adaptive-size(padding-left, 55, 15);
     @include adaptive-size(font-size, 16, 14);
     font-weight: 300;
+
     ul {
       padding-left: 0;
       list-style: disc;
+
       li {
         &:not(:last-child) {
           margin-bottom: 10px;
         }
       }
     }
+  }
+}
+
+.diagnostic-request {
+  @include adaptive-size(padding-top, 60, 70);
+  @include adaptive-size(padding-bottom, 60, 70);
+  @include adaptive-size(padding-left, 80, 15);
+  @include adaptive-size(padding-right, 80, 15);
+  background: #FFFFFF;
+  box-shadow: 12px 12px 35px rgba(0, 0, 0, 0.08);
+
+  &__content {
+    max-width: 550px;
+  }
+
+  &__title {
+    font-family: $secondary-font;
+    @include adaptive-size(font-size, 38, 25);
+    @include adaptive-size(margin-bottom, 40, 20);
+  }
+
+  &__subtitle {
+    margin-bottom: 40px;
+    @include adaptive-size(font-size, 20, 15);
+  }
+
+  &__arrow {
+
+  }
+
+  &__form {
+    max-width: 315px;
+  }
+}
+
+.outved-its {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+
+  &__content {
+    max-width: 570px;
+  }
+
+  &__bar {
+
+  }
+
+  &__title {
+    margin-bottom: 50px;
+    line-height: 1;
+    @include adaptive-size(font-size, 44, 25);
+    font-family: $secondary-font;
+  }
+
+  &__advantages {
+
+  }
+
+  &__advantage {
+    display: flex;
+    align-items: center;
+    @include adaptive-size(margin-bottom, 50, 30);
+  }
+
+  &__advantage-value {
+    @include adaptive-size(width, 180, 110);
+    font-family: $secondary-font;
+    color: $accent;
+    line-height: 1;
+    @include adaptive-size(font-size, 60, 36);
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: $accent;
+  }
+
+  &__advantage-title {
+    @include adaptive-size(font-size, 18, 15);
+  }
+
+  &__text {
+    @include adaptive-size(font-size, 18, 15);
+  }
+}
+
+.why-we {
+  @include adaptive-size(font-size, 24, 15);
+
+  &__bar {
+
+  }
+
+  &__title {
+    @include adaptive-size(margin-bottom, 40, 20);
+    @include adaptive-size(font-size, 44, 25);
+    font-family: $secondary-font;
+  }
+
+  &__ul-title {
+    @include adaptive-size(margin-top, 30, 20);
+    @include adaptive-size(margin-bottom, 40, 25);
+    @include adaptive-size(font-size, 30, 16);
+    font-weight: 600;
+  }
+}
+
+.we-help-you {
+  &__title {
+    font-family: $secondary-font;
+    @include adaptive-size(font-size, 44, 25);
+    @include adaptive-size(margin-bottom, 60, 25);
+  }
+
+  &__list {
+
+  }
+
+  &__item {
+    margin-bottom: 30px;
+  }
+
+  &__item-icon {
+    position: relative;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include adaptive-size(padding-top, 55, 30);
+  }
+
+  &__item-number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    @include adaptive-size(font-size, 30, 24);
+    font-family: $secondary-font;
+    color: $accent;
+    line-height: 1;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $accent;
+  }
+
+  &__item-text {
+    padding: 0 20px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.75;
+    @include adaptive-size(font-size, 18, 15);
+  }
+
+  &__button {
+    @include adaptive-size(margin-top, 35, 15);
+  }
+}
+
+.tree-month {
+  &__illustraion {
+    padding-right: 40px;
+  }
+
+  &__content {
+    padding-left: 40px;
+    @include adaptive-size(font-size, 18, 15);
+  }
+
+  &__title {
+    @include adaptive-size(font-size, 44, 25);
+    @include adaptive-size(margin-bottom, 40, 20);
+    font-family: $secondary-font;
+  }
+
+  &__p {
+
+  }
+
+  &__ul {
+    @include adaptive-size(margin-top, 40, 20);
+    color: #424257;
+  }
+}
+
+.services {
+  background-position: center;
+  background-size: 100%;
+  background-color: #F9FAFB;
+  &__title {
+    text-align: center;
+    font-weight: 400;
+    @include adaptive-size(margin-bottom, 40, 20);
+    @include adaptive-size(font-size, 38, 20);
+  }
+  &__tiles {
+    &--2-rows {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+  &__tile {
+
+  }
+  &__tile-wrap {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.service {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include adaptive-size(padding-top, 60, 45);
+  @include adaptive-size(padding-bottom, 60, 45);
+  @include adaptive-size(padding-left, 50, 30);
+  @include adaptive-size(padding-right, 50, 30);
+  color: #FFF;
+  z-index: 1;
+  overflow: hidden;
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(21, 67, 142, 0.95);
+    z-index: -1;
+  }
+  &__number {
+    position: absolute;
+    @include adaptive-size(top, 50, 45);
+    @include adaptive-size(right, 50, 30);
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #FFF;
+    @include adaptive-size(font-size, 24, 16);
+    line-height: 1;
+  }
+  &__title {
+    margin-bottom: 20px;
+    color: #FFF;
+    @include adaptive-size(font-size, 24, 16);
+    font-weight: 700;
+  }
+  &__ul {
+    @include adaptive-size(font-size, 18, 15);
+    a {
+      text-decoration: underline;
+    }
+    li {
+      margin-bottom: 15px;
+    }
+    &--2-columns{
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        width: 40%;
+      }
+    }
+  }
+  &__dots {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-5%, 12%);
   }
 }
 
