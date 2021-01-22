@@ -1,5 +1,12 @@
 $( document ).ready(function () {
 
+    // Youtube popup
+    {
+        $(".youtube-link").grtyoutube({
+            autoPlay: false
+        });
+    }
+
     // Cover tabs open
 
     {
@@ -10,7 +17,7 @@ $( document ).ready(function () {
             let content = container.find('.cover-tab__content');
             let button = container.find('.cover-tab__expand-button');
 
-            container.on('click', function () {
+            container.on('mouseenter', function () {
                 if(content.is(':visible')) {
                     content.slideUp(200);
                     button.removeClass('active');
@@ -21,6 +28,11 @@ $( document ).ready(function () {
                     content.slideToggle(200);
                     button.toggleClass('active');
                 }
+            });
+
+            container.on('mouseleave', function () {
+                content.slideUp(200);
+                button.removeClass('active');
             });
 
             $( document ).mouseup(function(e)
@@ -64,6 +76,23 @@ $( document ).ready(function () {
         $.each(nameInput, function () {
             $(this).mask('Z',{translation: {'Z': {pattern: /[a-zA-Zа-яА-Я]/, recursive: true}}});
         });
+    }
+
+    // Cases description hover
+    {
+        let cases = $('.case');
+
+        cases.each(function () {
+            let description = $( this ).find('.case__description');
+
+            $( this ).on('mouseenter', function () {
+                description.slideDown(200);
+            });
+
+            $( this ).on('mouseleave', function () {
+                description.slideUp(200);
+            })
+        })
     }
 
 });

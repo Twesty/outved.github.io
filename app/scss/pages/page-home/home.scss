@@ -2,6 +2,7 @@
 @import "../../../libs/slick/slick.scss";
 @import "../../../libs/slick/slick-theme.scss";
 @import "../../../libs/country-code/intlTelInput.css";
+@import "../../../libs/youtube-popup/grt-youtube-popup.css";
 
 .page-home {
   &__cover {
@@ -681,7 +682,7 @@
     flex-direction: column;
     justify-content: flex-end;
     @include adaptive-size(height, 485, 360);
-    @include adaptive-size(padding-top, 55, 50);
+    @include adaptive-size(padding-top, 30, 20);
     @include adaptive-size(padding-bottom, 55, 50);
     @include adaptive-size(padding-left, 45, 30);
     @include adaptive-size(padding-right, 45, 30);
@@ -703,6 +704,10 @@
     }
   }
 
+  &__description {
+    display: none;
+  }
+
   &__bar {
     width: 40px;
     height: 2px;
@@ -713,7 +718,7 @@
     font-weight: 400;
     @include adaptive-size(margin-top, 25, 15);
     @include adaptive-size(margin-bottom, 20, 15);
-    @include adaptive-size(font-size, 24, 15);
+    @include adaptive-size(font-size, 22, 15);
   }
 
   &__footer {
