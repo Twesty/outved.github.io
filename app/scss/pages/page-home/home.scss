@@ -1,6 +1,7 @@
 @import "../../vars";
 @import "../../../libs/slick/slick.scss";
 @import "../../../libs/slick/slick-theme.scss";
+@import "../../../libs/country-code/intlTelInput.css";
 
 .page-home {
   &__cover {
@@ -68,7 +69,6 @@
   }
 
   &__free-webinar {
-    @include adaptive-size(margin-top, 120, 70);
     @include adaptive-size(margin-bottom, 120, 0);
   }
 }
@@ -735,6 +735,12 @@
     font-weight: 700;
     @include adaptive-size(font-size, 17, 12);
   }
+
+  &__dots {
+    position: absolute;
+    top: 0;
+    right: 5px;
+  }
 }
 
 .free-webinar {
@@ -743,6 +749,15 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+}
+
+.iti__flag {
+  background-image: url("../../../libs/country-code/flags.png");
+}
+
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("../../../libs/country-code/flags@2x.png");}
 }
 
 @import "home-responsive";

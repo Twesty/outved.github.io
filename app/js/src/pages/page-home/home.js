@@ -36,4 +36,34 @@ $( document ).ready(function () {
         });
     }
 
+    // Country code
+
+    {
+        let input = $('input[type="tel"]');
+
+        input.intlTelInput({
+            initialCountry: "UA",
+            separateDialCode: true
+        });
+    }
+
+    // Phone mask
+
+    // Input masks
+    {
+        // Phone input mask
+        let phoneInput = $('input[type=tel]');
+
+        $.each(phoneInput, function () {
+            $(this).mask('000000000000000');
+        });
+
+        // Name mask
+        let nameInput = $('input[name=name]');
+
+        $.each(nameInput, function () {
+            $(this).mask('Z',{translation: {'Z': {pattern: /[a-zA-Zа-яА-Я]/, recursive: true}}});
+        });
+    }
+
 });

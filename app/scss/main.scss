@@ -173,7 +173,7 @@ b, strong {
     color: #FFF;
     background: $accent;
 
-    &:hover {
+      &:hover {
       color: #FFF;
       background: #2C68C9;
     }
@@ -375,9 +375,6 @@ b, strong {
 }
 
 .contact-form {
-  background: #FFFFFF;
-  box-shadow: 12px 12px 35px rgba(0, 0, 0, 0.08);
-
   &--free-webinar {
     color: #FFF;
 
@@ -387,6 +384,10 @@ b, strong {
 
     .contact-form__content {
       max-width: 600px;
+    }
+
+    .iti__country-list {
+      color: $text;
     }
   }
 
@@ -398,6 +399,8 @@ b, strong {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #FFF;
+    box-shadow: 12px 12px 35px rgba(0, 0, 0, 0.08);
   }
 
   &__content {
