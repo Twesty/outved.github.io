@@ -54,6 +54,8 @@ gulp.task('scripts', function() {
 {
 	gulp.task('page-home-scripts', function() {
 		return gulp.src([
+			'app/libs/slick/slick.min.js',
+			'app/libs/bootstrap/js/bootstrap.min.js',
 			'app/js/src/pages/page-home/home.js',
 		])
 		.pipe(concat('home.min.js'))

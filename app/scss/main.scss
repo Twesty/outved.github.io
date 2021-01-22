@@ -159,6 +159,16 @@ b, strong {
   border: none;
   cursor: pointer;
 
+  &--whire {
+    color: $text;
+    background: #FFF;
+
+    &:hover {
+      color: #FFF;
+      background: $accent;
+    }
+  }
+
   &--accent {
     color: #FFF;
     background: $accent;
@@ -179,7 +189,8 @@ b, strong {
   }
 }
 
-.custom-input {
+.custom-input,
+.custom-textarea {
   position: relative;
   background: #EBEBEB;
 
@@ -192,7 +203,8 @@ b, strong {
     color: #5E5E5E;
   }
 
-  input {
+  input,
+  textarea {
     width: 100%;
     @include adaptive-size(padding-top, 20, 15);
     @include adaptive-size(padding-bottom, 20, 15);
@@ -204,12 +216,41 @@ b, strong {
     line-height: 1;
     color: #5A606C;
     background: none;
+    resize: none;
 
     &::placeholder {
       @include adaptive-size(font-size, 16, 15);
       font-weight: 300;
       color: #5A606C;
     }
+  }
+
+  &--transparent {
+    background: transparent;
+
+    &:before {
+      color: #FFF;
+    }
+
+    input {
+      color: #FFF;
+      border: 1px solid #FFF;
+
+      &::placeholder {
+        color: #FFF;
+      }
+    }
+  }
+
+  &--gray {
+    background: #EBEBEB;
+  }
+}
+
+.custom-textarea {
+  &:before {
+    top: 15px;
+    transform: none;
   }
 }
 
@@ -263,6 +304,10 @@ b, strong {
     align-items: center;
     justify-content: space-between;
     @include adaptive-size(margin-bottom, 50, 30);
+  }
+
+  &__tabs-wrap {
+    flex-grow: 1;
   }
 
   &__tabs {
@@ -321,9 +366,88 @@ b, strong {
 
   &__content {
     display: none;
+
     &.active {
       display: block;
     }
+  }
+}
+
+.contact-form {
+  background: #FFFFFF;
+  box-shadow: 12px 12px 35px rgba(0, 0, 0, 0.08);
+
+  &--free-webinar {
+    color: #FFF;
+
+    .contact-form__subtitle {
+      @include adaptive-size(font-size, 18, 15);
+    }
+
+    .contact-form__content {
+      max-width: 600px;
+    }
+  }
+
+  &__wrap {
+    @include adaptive-size(padding-top, 60, 70);
+    @include adaptive-size(padding-bottom, 60, 70);
+    @include adaptive-size(padding-left, 80, 15);
+    @include adaptive-size(padding-right, 80, 15);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__content {
+    max-width: 550px;
+  }
+
+  &__title {
+    font-family: $secondary-font;
+    @include adaptive-size(font-size, 38, 25);
+    @include adaptive-size(margin-bottom, 40, 20);
+  }
+
+  &__subtitle {
+    margin-bottom: 40px;
+    @include adaptive-size(font-size, 20, 15);
+  }
+
+  &__arrow {
+
+  }
+
+  &__form {
+    max-width: 315px;
+  }
+}
+
+.modal-contact-form {
+  &__content {
+    position: relative;
+    background: #FFF;
+    @include adaptive-size(padding-top, 80, 60);
+    @include adaptive-size(padding-bottom, 60, 70);
+    @include adaptive-size(padding-left, 50, 15);
+    @include adaptive-size(padding-right, 50, 15);
+  }
+
+  &__close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+
+  &__form {
+
+  }
+
+  &__title {
+    text-align: center;
+    @include adaptive-size(margin-bottom, 25, 20);
+    font-family: $secondary-font;
+    @include adaptive-size(font-size, 24, 20);
   }
 }
 

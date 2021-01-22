@@ -1,4 +1,6 @@
 @import "../../vars";
+@import "../../../libs/slick/slick.scss";
+@import "../../../libs/slick/slick-theme.scss";
 
 .page-home {
   &__cover {
@@ -24,6 +26,10 @@
 
   &__we-help-you {
     @include adaptive-size(padding-bottom, 120, 75);
+
+    &--2 {
+      @include adaptive-size(padding-bottom, 105, 75);
+    }
   }
 
   &__tree-month {
@@ -54,6 +60,16 @@
 
   &__clients {
     @include adaptive-size(margin-bottom, 120, 70);
+  }
+
+  &__cases {
+    @include adaptive-size(padding-top, 120, 60);
+    @include adaptive-size(padding-bottom, 120, 70);
+  }
+
+  &__free-webinar {
+    @include adaptive-size(margin-top, 120, 70);
+    @include adaptive-size(margin-bottom, 120, 0);
   }
 }
 
@@ -95,6 +111,12 @@
   @include adaptive-size(padding-bottom, 40, 15);
   @include adaptive-size(padding-left, 30, 15);
   @include adaptive-size(padding-right, 30, 15);
+  
+  &.active {
+    .cover-tab__content {
+      display: block;
+    }
+  }
 
   &:nth-child(1) {
     background: #082B63;
@@ -196,38 +218,6 @@
   }
 }
 
-.diagnostic-request {
-  @include adaptive-size(padding-top, 60, 70);
-  @include adaptive-size(padding-bottom, 60, 70);
-  @include adaptive-size(padding-left, 80, 15);
-  @include adaptive-size(padding-right, 80, 15);
-  background: #FFFFFF;
-  box-shadow: 12px 12px 35px rgba(0, 0, 0, 0.08);
-
-  &__content {
-    max-width: 550px;
-  }
-
-  &__title {
-    font-family: $secondary-font;
-    @include adaptive-size(font-size, 38, 25);
-    @include adaptive-size(margin-bottom, 40, 20);
-  }
-
-  &__subtitle {
-    margin-bottom: 40px;
-    @include adaptive-size(font-size, 20, 15);
-  }
-
-  &__arrow {
-
-  }
-
-  &__form {
-    max-width: 315px;
-  }
-}
-
 .outved-its {
   background-position: center;
   background-size: cover;
@@ -301,6 +291,17 @@
 }
 
 .we-help-you {
+  &--2 {
+    .we-help-you__title {
+      @include adaptive-size(font-size, 38, 20);
+    }
+
+    .we-help-you__item-icon {
+      height: 100px;
+      padding-top: 0;
+    }
+  }
+
   &__title {
     font-family: $secondary-font;
     @include adaptive-size(font-size, 44, 25);
@@ -629,6 +630,118 @@
 
   &__country-name {
     @include adaptive-size(font-size, 18, 15);
+  }
+}
+
+.cases {
+  position: relative;
+
+  &__gray-bg {
+    position: absolute;
+    width: 100%;
+    height: 1800px;
+    transform: translate(-55px, -155px);
+    background: #F9FAFB;
+    z-index: -1;
+  }
+
+  &__header {
+
+  }
+
+  &__title {
+    font-family: $secondary-font;
+    @include adaptive-size(font-size, 44, 25);
+    @include adaptive-size(margin-bottom, 40, 20);
+  }
+
+  &__p {
+    @include adaptive-size(font-size, 18, 15);
+    @include adaptive-size(margin-bottom, 40, 20);
+  }
+
+  &__subtitle {
+    font-weight: 600;
+    @include adaptive-size(font-size, 25, 15);
+    @include adaptive-size(margin-bottom, 40, 20);
+  }
+
+  &__content {
+
+  }
+
+  &__items {
+
+  }
+
+  &__item {
+    padding: 0 12.5px;
+    margin-bottom: 25px;
+  }
+
+  &__link {
+    display: inline-block;
+    @include adaptive-size(margin-top, 50, 30);
+  }
+}
+
+.case {
+  &__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    @include adaptive-size(height, 485, 360);
+    @include adaptive-size(padding-top, 55, 50);
+    @include adaptive-size(padding-bottom, 55, 50);
+    @include adaptive-size(padding-left, 45, 30);
+    @include adaptive-size(padding-right, 45, 30);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    color: #FFF;
+
+    &:before {
+      position: absolute;
+      content: '';
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(179.88deg, rgba(48, 120, 201, 0.9) 0.1%, rgba(15, 18, 46, 0.9) 99.9%);;
+      z-index: -1;
+    }
+  }
+
+  &__bar {
+    width: 40px;
+    height: 2px;
+    background: $accent;
+  }
+
+  &__title {
+    font-weight: 400;
+    @include adaptive-size(margin-top, 25, 15);
+    @include adaptive-size(margin-bottom, 20, 15);
+    @include adaptive-size(font-size, 24, 15);
+  }
+
+  &__footer {
+
+  }
+
+  &__link {
+    font-weight: 700;
+    @include adaptive-size(font-size, 17, 12);
+  }
+}
+
+.free-webinar {
+  &__wrap {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 

@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22d3198d-8463-4647-b81d-64336c048e1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/img/home/text-blocks/something-wrong.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Ilya.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Ilya.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/pages/page-home/home.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/pages/page-home/home.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/home/tree-month/tree-month-illustration.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/text-blocks/tree-month.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/dest/pages/page-home/home.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/dest/pages/page-home/home.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/pages/page-home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/pages/page-home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/img/home/clients" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/libs/bootstrap" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -51,11 +54,11 @@
       <recent name="D:\WebPR\Outved\app\img\favicon" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WebPR\Outved\app\img\home\clients" />
-      <recent name="D:\WebPR\Outved\app\img\home\text-blocks" />
-      <recent name="D:\WebPR\Outved\app\img\home\services" />
-      <recent name="D:\WebPR\Outved\app\img\home\tree-month" />
-      <recent name="D:\WebPR\Outved\app\img" />
+      <recent name="D:\WebPR\Outved\app\libs\bootstrap" />
+      <recent name="D:\WebPR\Outved\app\img\home\free-webinar" />
+      <recent name="D:\WebPR\Outved\app\img\home\cases" />
+      <recent name="D:\WebPR\Outved\app\libs\owl-carousel" />
+      <recent name="D:\WebPR\Outved\app\libs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,7 +87,7 @@
       <workItem from="1611185466446" duration="82000" />
       <workItem from="1611190319897" duration="6377000" />
       <workItem from="1611213832808" duration="4000" />
-      <workItem from="1611281757966" duration="12717000" />
+      <workItem from="1611281757966" duration="19217000" />
     </task>
     <servers />
   </component>
