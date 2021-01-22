@@ -368,6 +368,10 @@ b, strong {
   &__content {
     display: none;
 
+    &:focus {
+      outline: none;
+    }
+
     &.active {
       display: block;
     }
