@@ -4,6 +4,14 @@
 // ≥1440px
 @include media-breakpoint-down(xl) {
 
+  .header {
+    &__menu {
+      .list__item {
+        margin-right: 40px;
+      }
+    }
+  }
+
 }
 
 // ≥1280px

@@ -28,7 +28,7 @@
     color: #242431;
 
     .list__item {
-      @include adaptive-size(margin-right, 50, 0);
+      margin-right: 50px;
     }
   }
 
