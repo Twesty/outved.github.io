@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22d3198d-8463-4647-b81d-64336c048e1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/pages/page-home/home.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/pages/page-home/home.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/dest/pages/page-home/home.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/dest/pages/page-home/home.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/src/pages/page-home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/src/pages/page-home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/pages/page-home/_home-responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/pages/page-home/_home-responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/pages/page-home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/pages/page-home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/parts/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/parts/header/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/clients/content-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/clients/content-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/clients/flags/austria.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/clients/flags/austria.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/clients/flags/croatia.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/clients/flags/croatia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/clients/flags/estonia.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/clients/flags/estonia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/clients/flags/greece.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/clients/flags/greece.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/clients/flags/italy.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/clients/flags/italy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/clients/flags/malta.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/clients/flags/malta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/clients/flags/netherlands.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/clients/flags/netherlands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/clients/flags/romania.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/clients/flags/romania.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/clients/flags/slovenia.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/clients/flags/slovenia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/clients/flags/ukraine.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/clients/flags/ukraine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/home/international/international-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/home/international/international-bg.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,7 @@
       <workItem from="1611185466446" duration="82000" />
       <workItem from="1611190319897" duration="6377000" />
       <workItem from="1611213832808" duration="4000" />
-      <workItem from="1611281757966" duration="36109000" />
+      <workItem from="1611281757966" duration="36424000" />
     </task>
     <servers />
   </component>
