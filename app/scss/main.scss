@@ -148,6 +148,7 @@ b, strong {
 }
 
 .button {
+  display: inline-block;
   min-width: 250px;
   text-align: center;
   @include adaptive-size(padding-top, 20, 17);
@@ -173,7 +174,7 @@ b, strong {
     color: #FFF;
     background: $accent;
 
-      &:hover {
+    &:hover {
       color: #FFF;
       background: #2C68C9;
     }
@@ -271,6 +272,12 @@ b, strong {
   padding-left: 0;
   margin-bottom: 0;
 
+  &--inline {
+    li {
+
+    }
+  }
+
   &--disc {
     li {
       position: relative;
@@ -298,7 +305,10 @@ b, strong {
 
     svg {
       @include adaptive-size(margin-right, 20, 15);
+      @include adaptive-size(min-width, 28, 15);
+      @include adaptive-size(min-height, 28, 15);
       @include adaptive-size(width, 28, 15);
+      @include adaptive-size(height, 28, 15);
     }
   }
 }
@@ -319,15 +329,13 @@ b, strong {
     display: flex;
     align-items: center;
     flex-grow: 1;
+    margin-right: -10px;
   }
 
   &__tab {
     flex-grow: 1;
     @include adaptive-size(font-size, 17, 15);
-
-    &:not(:last-child) {
-      margin-right: 10px;
-    }
+    margin-right: 10px;
 
     &:hover,
     &.active {
@@ -413,6 +421,7 @@ b, strong {
 
   &__content {
     max-width: 550px;
+    padding-right: 55px;
   }
 
   &__title {
@@ -460,6 +469,99 @@ b, strong {
     @include adaptive-size(margin-bottom, 25, 20);
     font-family: $secondary-font;
     @include adaptive-size(font-size, 24, 20);
+  }
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  cursor: pointer;
+
+  &__bar {
+    background: #474B50;
+    height: 2px;
+    border-radius: 1px;
+    transition: opacity .2s, transform .2s;
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+    &:nth-child(1) {
+      width: 40px;
+    }
+    &:nth-child(2) {
+      width: 25px;
+    }
+    &:nth-child(3) {
+      width: 40px;
+    }
+  }
+
+  &.active {
+    .bars__bar {
+      transform-origin: center;
+      &:nth-child(1) {
+        transform: rotate(45deg) translateY(13.5px);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:nth-child(3) {
+        transform: rotate(-45deg) translateY(-13.5px);
+      }
+    }
+  }
+}
+
+.text-block {
+  &--right {
+    .text-block__wrap {
+      flex-direction: row;
+    }
+  }
+
+  &--left {
+    .text-block__wrap {
+      flex-direction: row-reverse;
+    }
+
+    .text-block__content {
+      padding-left: 15px;
+    }
+
+    .text-block__image {
+      padding-right: 0;
+      padding-left: 40px;
+    }
+  }
+
+  &--with-image {
+
+  }
+
+  &__image {
+    padding-right: 40px;
+  }
+
+  &__content {
+    padding-left: 40px;
+    @include adaptive-size(font-size, 18, 15);
+  }
+
+  &__title {
+    @include adaptive-size(font-size, 44, 25);
+    @include adaptive-size(margin-bottom, 40, 20);
+    font-family: $secondary-font;
+  }
+
+  &__p {
+    @include adaptive-size(margin-top, 40, 20);
+    @include adaptive-size(margin-bottom, 40, 20);
+  }
+
+  &__ul {
+    @include adaptive-size(margin-top, 40, 20);
+    color: #424257;
   }
 }
 

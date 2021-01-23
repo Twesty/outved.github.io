@@ -11,7 +11,10 @@ $( document ).ready(function () {
             let arrowPrev = $( this ).find('.custom-tabs__arrow--prev');
             let arrowNext = $( this ).find('.custom-tabs__arrow--next');
 
-            contents.slick();
+            contents.slick({
+                waitForAnimate: false,
+                adaptiveHeight: true
+            });
 
             arrowNext.on('click', function () {
                 let currentTab = $('.custom-tabs__tab.active');
@@ -60,14 +63,18 @@ $( document ).ready(function () {
         })
     }
 
-    // Dropdowm
+    // Dropdown
     {
         let button = $('[data-dropdown]');
 
         button.on('click', function () {
             let target = $( this ).attr('data-dropdown-target');
 
-            $(target).slideToggle(200);
+            if($(target).is(':visible')) {
+                $(target).slideUp(200);
+            } else {
+                $(target).slideToggle(200);
+            }
 
             $( document ).mouseup(function(e)
             {
@@ -79,6 +86,31 @@ $( document ).ready(function () {
                     container.slideUp(200);
                 }
             });
+        });
+    }
+
+    // Mobile menu show
+
+    {
+        let button = $('.header__bars');
+        let menu = $('.mobile-menu');
+
+        button.on('click', function () {
+            menu.toggleClass('active');
+            $( this ).toggleClass('active');
+        });
+
+        $( document ).mouseup(function(e)
+        {
+            let container = menu;
+            let openButton = button;
+
+            // if the target of the click isn't the container nor a descendant of the container
+            if (!container.is(e.target) && container.has(e.target).length === 0 && !openButton.is(e.target) && openButton.has(e.target).length === 0)
+            {
+                container.removeClass('active');
+                button.removeClass('active');
+            }
         });
     }
 

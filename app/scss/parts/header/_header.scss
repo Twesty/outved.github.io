@@ -1,38 +1,95 @@
 .header {
+  position: relative;
   &__top {
     padding-top: 12px;
     padding-bottom: 12px;
     background: #FAFAFA;
     color: #A2ABAF;
     font-size: 14px;
+
     .list__item {
       &:not(:last-child) {
         @include adaptive-size(margin-right, 70, 55);
       }
     }
   }
+
   &__middle {
     @include adaptive-size(padding-top, 15, 20);
     @include adaptive-size(padding-bottom, 15, 20);
   }
+
   &__logo {
     @include adaptive-size(max-height, 60, 45);
   }
+
   &__menu {
     font-size: 14px;
     color: #242431;
+
     .list__item {
       @include adaptive-size(margin-right, 50, 0);
     }
+  }
+
+  &__bars {
+
+  }
+
+  &__phones {
+
+  }
+
+  &__phones-current {
+    padding-right: 20px;
+  }
+
+  svg.header__phones-arrow {
+    right: 0;
+    left: auto;
+  }
+
+  &__phones-list {
+    position: absolute;
+    top: 100%;
+    left: -15px;
+    right: 0;
+    display: none;
+    padding: 0 5px 10px 15px;
+    background: #fafafa;
+
+    li {
+      margin-top: 5px;
+    }
+  }
+
+  &__mobile-menu {
+
+  }
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  padding: 15px 70px 0 30px;
+  background-color: #FFF;
+  transform: translateX(100%);
+  transition: transform .2s;
+  &.active {
+    transform: translateX(0);
+    transition: transform .2s;
   }
 }
 
 .language {
   position: relative;
   cursor: pointer;
+
   &__current {
     display: flex;
   }
+
   &__items {
     display: none;
     position: absolute;
@@ -45,6 +102,7 @@
     list-style: none;
     background: #FFF;
   }
+
   &__item {
 
   }

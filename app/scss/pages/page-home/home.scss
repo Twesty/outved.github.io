@@ -18,7 +18,7 @@
 
   &__outved-its {
     @include adaptive-size(padding-top, 120, 120);
-    @include adaptive-size(padding-bottom, 120, 170);
+    @include adaptive-size(padding-bottom, 120, 50);
   }
 
   &__why-we {
@@ -220,13 +220,28 @@
 }
 
 .outved-its {
+  position: relative;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #FFF;
+  z-index: 1;
+  
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    z-index: -1;
+  }
 
   &__content {
     max-width: 570px;
+    z-index: 1;
   }
 
   &__bar {
@@ -251,7 +266,7 @@
   }
 
   &__advantage-value {
-    @include adaptive-size(width, 180, 110);
+    @include adaptive-size(min-width, 180, 110);
     font-family: $secondary-font;
     color: $accent;
     line-height: 1;
@@ -314,7 +329,7 @@
   }
 
   &__item {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   &__item-icon {
@@ -323,7 +338,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    @include adaptive-size(padding-top, 55, 30);
+    @include adaptive-size(padding-top, 55, 0);
   }
 
   &__item-number {
@@ -349,58 +364,6 @@
 
   &__button {
     @include adaptive-size(margin-top, 35, 15);
-  }
-}
-
-.text-block {
-  &--right {
-    .text-block__wrap {
-      flex-direction: row;
-    }
-  }
-
-  &--left {
-    .text-block__wrap {
-      flex-direction: row-reverse;
-    }
-
-    .text-block__content {
-      padding-left: 15px;
-    }
-
-    .text-block__image {
-      padding-right: 0;
-      padding-left: 40px;
-    }
-  }
-
-  &--with-image {
-
-  }
-
-  &__image {
-    padding-right: 40px;
-  }
-
-  &__content {
-    padding-left: 40px;
-    @include adaptive-size(font-size, 18, 15);
-  }
-
-  &__title {
-    @include adaptive-size(font-size, 44, 25);
-    @include adaptive-size(margin-bottom, 40, 20);
-    font-family: $secondary-font;
-  }
-
-  &__p {
-    @include adaptive-size(margin-top, 40, 20);
-    @include adaptive-size(margin-bottom, 40, 20);
-  }
-
-  &__ul {
-    @include adaptive-size(margin-top, 40, 20);
-    color: #424257;
   }
 }
 
@@ -537,6 +500,7 @@
     @include adaptive-size(margin-bottom, 90, 20);
 
     svg {
+      @include adaptive-size(min-width, 90, 70);
       margin-right: 70px;
     }
   }
@@ -587,7 +551,7 @@
     background-repeat: no-repeat;
     @include adaptive-size(margin-top, 40, 25);
     @include adaptive-size(padding-top, 40, 25);
-    @include adaptive-size(padding-bottom, 20, 0);
+    @include adaptive-size(padding-bottom, 40, 20);
     @include adaptive-size(padding-left, 45, 20);
     @include adaptive-size(padding-right, 45, 20);
     background-color: #FFF;
@@ -601,7 +565,6 @@
   }
 
   &__countries {
-    height: 480px;
     columns: 4;
   }
 

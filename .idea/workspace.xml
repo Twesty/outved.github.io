@@ -6,11 +6,15 @@
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/pages/page-home/home.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/pages/page-home/home.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/dest/pages/page-home/home.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/dest/pages/page-home/home.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/src/pages/page-home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/src/pages/page-home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/pages/page-home/_home-responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/pages/page-home/_home-responsive.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/pages/page-home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/pages/page-home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/parts/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/parts/header/_header.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/libs/youtube-popup" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/img/home/outved-its" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -52,11 +56,11 @@
       <recent name="D:\WebPR\Outved\app\img\favicon" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebPR\Outved\app\img\home\outved-its" />
       <recent name="D:\WebPR\Outved\app\libs\youtube-popup" />
       <recent name="D:\WebPR\Outved\app\libs" />
       <recent name="D:\WebPR\Outved\app\libs\country-code" />
       <recent name="D:\WebPR\Outved\app\libs\bootstrap" />
-      <recent name="D:\WebPR\Outved\app\img\home\free-webinar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,7 +89,7 @@
       <workItem from="1611185466446" duration="82000" />
       <workItem from="1611190319897" duration="6377000" />
       <workItem from="1611213832808" duration="4000" />
-      <workItem from="1611281757966" duration="27710000" />
+      <workItem from="1611281757966" duration="36109000" />
     </task>
     <servers />
   </component>

@@ -4,20 +4,201 @@
 // ≥1440px
 @include media-breakpoint-down(xl) {
 
+  .page-home {
+    &__diagnostic-request {
+      top: -120px;
+      margin-bottom: -65px;
+    }
+  }
+
+  .outved-its {
+    &__content {
+      max-width: 450px;
+    }
+  }
+
+  .cover {
+    &__tabs {
+      flex-direction: column;
+    }
+
+    &__tab {
+      max-width: 550px;
+      width: 100%;
+    }
+  }
+
+  .cover-tab {
+    flex-direction: column;
+
+    &:first-child {
+      .cover-tab__content {
+        display: block;
+      }
+    }
+
+    &__content {
+      position: relative;
+      padding-left: 20px;
+
+    }
+  }
+
 }
 
 // ≥1280px
 @include media-breakpoint-down(lg) {
+
 
 }
 
 // ≥1024px
 @include media-breakpoint-down(md) {
 
+  .international {
+    &__title {
+      flex-direction: column;
+      text-align: center;
+
+      svg {
+        margin-right: 0;
+        margin-bottom: 15px;
+      }
+    }
+
+    &__stats {
+
+    }
+
+    &__stat {
+      width: 50%;
+    }
+  }
+
+  .clients {
+    &__countries {
+      columns: 3;
+      height: auto;
+    }
+  }
+
+  .case {
+    &__content {
+      height: 360px;
+    }
+  }
+
+  .outved-its {
+    &__bg {
+      background-position: 85%;
+
+      &:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: rgba(0, 0, 0, .4);
+      }
+    }
+  }
+
 }
 
 // ≥768px
 @include media-breakpoint-down(sm) {
+
+  .cover {
+    &__tabs {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  .clients {
+    &__countries {
+      columns: 2;
+      height: auto;
+    }
+  }
+
+  .outved-its {
+    padding-top: 360px;
+    background: linear-gradient(360deg, #13120D 0%, #6A574C 68.13%);
+
+    &__bg {
+      max-height: 360px;
+      background-position: center;
+      
+      &:before {
+        display: none;
+      }
+    }
+
+    &__content {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+
+    &__bar {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &__title {
+      text-align: center;
+    }
+
+    &__text {
+      font-weight: 300;
+    }
+  }
+
+  .page-home {
+    &__diagnostic-request {
+      top: 0;
+      margin-bottom: 0;
+
+      .contact-form__wrap {
+        box-shadow: none;
+      }
+    }
+    &__free-webinar {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .why-we {
+    &__title {
+      text-align: center;
+    }
+  }
+
+  .we-help-you {
+    &__title {
+      text-align: center;
+    }
+
+    &__item-number {
+      right: 80px;
+    }
+  }
+
+  .international {
+    &__stat {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+  }
+
+  .case {
+    &__description {
+      display: none !important;
+    }
+  }
 
 }
 

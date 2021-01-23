@@ -30,7 +30,7 @@
 	<header class="header">
 		<div class="header__top">
 			<div class="container">
-				<ul class="w-100 mb-0 list list-inline align-items-center justify-content-end">
+				<ul class="d-none d-xl-flex w-100 mb-0 list list-inline align-items-center justify-content-end">
 					<li class="list__item list__item--icon">
 						<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M7.71056 10.8261V1.17391C7.71056 0.526688 7.18399 0 6.53665 0H1.46273C0.815506 0 0.288818 0.526688 0.288818 1.17391V10.8261C0.288818 11.4734 0.815506 12 1.46273 12H6.5497C6.86339 12 7.16848 11.871 7.3867 11.6461C7.60476 11.4213 7.71968 11.1258 7.71056 10.8261ZM6.82491 11.1011C6.75225 11.1762 6.65456 11.2174 6.54968 11.2174H1.46273C1.24699 11.2174 1.07142 11.0418 1.07142 10.8261V1.17391C1.07142 0.958172 1.24699 0.782602 1.46273 0.782602H6.53665C6.75239 0.782602 6.92796 0.958172 6.92796 1.17391L6.9281 10.8378C6.93108 10.9359 6.89442 11.0294 6.82491 11.1011Z" fill="#A2ABAF"/>
@@ -56,13 +56,59 @@
 						<a href="mailto:info@outved.pro">info@outved.pro</a>
 					</li>
 				</ul>
+				<div class="d-flex d-xl-none w-100 mb-0 align-items-center justify-content-end">
+					<ul class="header__phones list d-flex mb-0 mr-4 list-inline align-items-center">
+						<li class="list__item list__item--icon header__phones-current">
+							<div class="cursor-pointer" data-dropdown data-dropdown-target=".header__phones-list">
+								<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7.71056 10.8261V1.17391C7.71056 0.526688 7.18399 0 6.53665 0H1.46273C0.815506 0 0.288818 0.526688 0.288818 1.17391V10.8261C0.288818 11.4734 0.815506 12 1.46273 12H6.5497C6.86339 12 7.16848 11.871 7.3867 11.6461C7.60476 11.4213 7.71968 11.1258 7.71056 10.8261ZM6.82491 11.1011C6.75225 11.1762 6.65456 11.2174 6.54968 11.2174H1.46273C1.24699 11.2174 1.07142 11.0418 1.07142 10.8261V1.17391C1.07142 0.958172 1.24699 0.782602 1.46273 0.782602H6.53665C6.75239 0.782602 6.92796 0.958172 6.92796 1.17391L6.9281 10.8378C6.93108 10.9359 6.89442 11.0294 6.82491 11.1011Z" fill="#A2ABAF"/>
+									<path d="M7.33235 1.52637H0.680176V2.30897H7.33235V1.52637Z" fill="#A2ABAF"/>
+									<path d="M7.33235 9.07812H0.680176V9.86073H7.33235V9.07812Z" fill="#A2ABAF"/>
+									<path d="M4.3323 10.1348H3.68013C3.46399 10.1348 3.28882 10.3099 3.28882 10.5261C3.28882 10.7422 3.46399 10.9174 3.68013 10.9174H4.3323C4.54844 10.9174 4.72362 10.7422 4.72362 10.5261C4.72362 10.3099 4.54842 10.1348 4.3323 10.1348Z" fill="#A2ABAF"/>
+								</svg>
+								<span>+38 (050) 801 19 19</span>
+								<svg class="header__phones-arrow" width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M4.21953 5.06912L7.90953 1.36889C8.03036 1.24765 8.03016 1.05137 7.90891 0.930343C7.78767 0.809406 7.59128 0.809718 7.47036 0.930968L3.99999 4.41095L0.529626 0.930842C0.40869 0.809609 0.212425 0.809296 0.0911751 0.930217C0.0303941 0.990889 3.32778e-06 1.07037 3.3243e-06 1.14986C3.32084e-06 1.22914 0.0301909 1.30831 0.0905499 1.36887L3.78046 5.06912C3.83855 5.12751 3.91761 5.16028 3.99999 5.16028C4.08236 5.16028 4.16133 5.12742 4.21953 5.06912Z" fill="#A2ABAF"/>
+								</svg>
+							</div>
+							<ul class="header__phones-list list-style-none">
+								<li class="list__item list__item--icon mr-0">
+									<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.71056 10.8261V1.17391C7.71056 0.526688 7.18399 0 6.53665 0H1.46273C0.815506 0 0.288818 0.526688 0.288818 1.17391V10.8261C0.288818 11.4734 0.815506 12 1.46273 12H6.5497C6.86339 12 7.16848 11.871 7.3867 11.6461C7.60476 11.4213 7.71968 11.1258 7.71056 10.8261ZM6.82491 11.1011C6.75225 11.1762 6.65456 11.2174 6.54968 11.2174H1.46273C1.24699 11.2174 1.07142 11.0418 1.07142 10.8261V1.17391C1.07142 0.958172 1.24699 0.782602 1.46273 0.782602H6.53665C6.75239 0.782602 6.92796 0.958172 6.92796 1.17391L6.9281 10.8378C6.93108 10.9359 6.89442 11.0294 6.82491 11.1011Z" fill="#A2ABAF"/>
+										<path d="M7.33235 1.52637H0.680176V2.30897H7.33235V1.52637Z" fill="#A2ABAF"/>
+										<path d="M7.33235 9.07812H0.680176V9.86073H7.33235V9.07812Z" fill="#A2ABAF"/>
+										<path d="M4.3323 10.1348H3.68013C3.46399 10.1348 3.28882 10.3099 3.28882 10.5261C3.28882 10.7422 3.46399 10.9174 3.68013 10.9174H4.3323C4.54844 10.9174 4.72362 10.7422 4.72362 10.5261C4.72362 10.3099 4.54842 10.1348 4.3323 10.1348Z" fill="#A2ABAF"/>
+									</svg>
+									<a href="tel:+38 (050) 801 19 19">+38 (050) 801 19 19</a>
+								</li>
+								<li class="list__item list__item--icon mr-0">
+									<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.71056 10.8261V1.17391C7.71056 0.526688 7.18399 0 6.53665 0H1.46273C0.815506 0 0.288818 0.526688 0.288818 1.17391V10.8261C0.288818 11.4734 0.815506 12 1.46273 12H6.5497C6.86339 12 7.16848 11.871 7.3867 11.6461C7.60476 11.4213 7.71968 11.1258 7.71056 10.8261ZM6.82491 11.1011C6.75225 11.1762 6.65456 11.2174 6.54968 11.2174H1.46273C1.24699 11.2174 1.07142 11.0418 1.07142 10.8261V1.17391C1.07142 0.958172 1.24699 0.782602 1.46273 0.782602H6.53665C6.75239 0.782602 6.92796 0.958172 6.92796 1.17391L6.9281 10.8378C6.93108 10.9359 6.89442 11.0294 6.82491 11.1011Z" fill="#A2ABAF"/>
+										<path d="M7.33235 1.52637H0.680176V2.30897H7.33235V1.52637Z" fill="#A2ABAF"/>
+										<path d="M7.33235 9.07812H0.680176V9.86073H7.33235V9.07812Z" fill="#A2ABAF"/>
+										<path d="M4.3323 10.1348H3.68013C3.46399 10.1348 3.28882 10.3099 3.28882 10.5261C3.28882 10.7422 3.46399 10.9174 3.68013 10.9174H4.3323C4.54844 10.9174 4.72362 10.7422 4.72362 10.5261C4.72362 10.3099 4.54842 10.1348 4.3323 10.1348Z" fill="#A2ABAF"/>
+									</svg>
+									<a href="tel:+38 (050) 801 19 19">+38 (050) 801 19 19</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<div class="list__item list__item--icon">
+						<svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M9.64285 0.428711H0.35715C0.159898 0.428711 0 0.588609 0 0.78584V7.21441C0 7.41166 0.159898 7.57156 0.35715 7.57156H9.64285C9.8401 7.57156 10 7.41166 10 7.21441V0.78584C10 0.588609 9.8401 0.428711 9.64285 0.428711ZM9.05714 1.14299L4.99999 4.26371L0.942856 1.14299H9.05714ZM9.2857 6.85728H0.714278V1.86834L4.7825 4.99762C4.91078 5.09612 5.08922 5.09612 5.2175 4.99762L9.2857 1.86834V6.85728Z" fill="#A2ABAF"/>
+						</svg>
+						<a href="mailto:info@outved.pro">info@outved.pro</a>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="header__middle">
 			<div class="container">
 				<div class="d-flex justify-content-between align-items-center">
-					<img src="img/logo.png" alt="Outved - International Trade Agency" class="header__logo">
-					<div class="d-flex align-items-center">
+					<a href="/">
+						<img src="img/logo.png" alt="Outved - International Trade Agency" class="header__logo">
+					</a>
+					<div class="d-none d-xl-flex align-items-center">
 						<nav class="header__menu">
 							<ul class="list mb-0 list-inline text-uppercase">
 								<li class="list__item">
@@ -135,7 +181,85 @@
 							</ul>
 						</div>
 					</div>
+					<div class="d-flex d-xl-none bars header__bars">
+						<div class="bars__bar"></div>
+						<div class="bars__bar"></div>
+						<div class="bars__bar"></div>
+					</div>
 				</div>
+			</div>
+		</div>
+		<div class="mobile-menu header__mobile-menu">
+			<ul class="text-uppercase list list-style-arrow mb-0 pl-0">
+				<li class="list__item list__item--icon">
+					<a href="/">Главная</a>
+				</li>
+				<li class="list__item list__item--icon">
+					<a href="https://outved.pro/about/">О компании</a>
+				</li>
+				<li class="list__item list__item--icon">
+					<a href="https://outved.pro/services/">Услуги</a>
+				</li>
+				<li class="list__item list__item--icon">
+					<a href="https://outved.pro/portfolio/">Кейсы</a>
+				</li>
+				<li class="list__item list__item--icon">
+					<a href="https://outved.pro/blog/">Публикации</a>
+				</li>
+				<li class="list__item list__item--icon">
+					<a href="https://outved.pro/edu/">Обучение</a>
+				</li>
+				<li class="list__item list__item--icon">
+					<a href="https://outved.pro/faq/">FAQ</a>
+				</li>
+				<li class="list__item list__item--icon">
+					<a href="https://outved.pro/contacts/">Контакты</a>
+				</li>
+			</ul>
+			<div class="mobile-menu__language mt-3">
+				<ul class="list list-inline list-style-none">
+					<li class="language__item mr-3">
+						<a href="#">
+							<svg width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M22 -0.356445H0V15.3575H22V-0.356445Z" fill="#FFDA44"/>
+								<path d="M22 -0.356445H0V7.50053H22V-0.356445Z" fill="#338AF3"/>
+							</svg>
+						</a>
+					</li>
+					<li class="language__item mr-3">
+						<a href="#">
+							<svg width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M21.9998 0.000671387H0V15.0002H21.9998V0.000671387Z" fill="#F0F0F0"/>
+								<path d="M12.3749 0H9.62489V6.09348H0V8.90587H9.62489V14.9993H12.3749V8.90587H21.9998V6.09348H12.3749V0Z" fill="#D80027"/>
+								<path d="M16.9199 10.1083L21.9995 12.9943V10.1083H16.9199Z" fill="#0052B4"/>
+								<path d="M13.3906 10.1083L21.9993 14.9994V13.6163L15.825 10.1083H13.3906Z" fill="#0052B4"/>
+								<path d="M19.7062 14.9994L13.3906 11.4108V14.9994H19.7062Z" fill="#0052B4"/>
+								<path d="M13.3906 10.1083L21.9993 14.9994V13.6163L15.825 10.1083H13.3906Z" fill="#F0F0F0"/>
+								<path d="M13.3906 10.1083L21.9993 14.9994V13.6163L15.825 10.1083H13.3906Z" fill="#D80027"/>
+								<path d="M3.88184 10.1082L0 12.3137V10.1082H3.88184Z" fill="#0052B4"/>
+								<path d="M8.60901 10.7302V14.9993H1.0957L8.60901 10.7302Z" fill="#0052B4"/>
+								<path d="M6.17426 10.1083L0 13.6163V14.9994L8.60864 10.1083H6.17426Z" fill="#D80027"/>
+								<path d="M5.07947 4.89111L0 2.00507V4.89111H5.07947Z" fill="#0052B4"/>
+								<path d="M8.60913 4.8911L0.000488281 0V1.38308L6.17475 4.8911H8.60913Z" fill="#0052B4"/>
+								<path d="M2.29297 0L8.60852 3.58861V0H2.29297Z" fill="#0052B4"/>
+								<path d="M8.60864 4.8911L0 0V1.38308L6.17426 4.8911H8.60864Z" fill="#F0F0F0"/>
+								<path d="M8.60864 4.8911L0 0V1.38308L6.17426 4.8911H8.60864Z" fill="#D80027"/>
+								<path d="M18.1177 4.8912L21.9994 2.68567V4.8912H18.1177Z" fill="#0052B4"/>
+								<path d="M13.3906 4.26928V0.00012207H20.9039L13.3906 4.26928Z" fill="#0052B4"/>
+								<path d="M15.825 4.8911L21.9993 1.38308V0L13.3906 4.8911H15.825Z" fill="#D80027"/>
+							</svg>
+						</a>
+					</li>
+					<li class="language__item mr-3">
+						<a href="#">
+							<svg width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M14.6667 0.357422H7.3333H0V14.6431H7.3333H14.6667H22V0.357422H14.6667Z" fill="#F0F0F0"/>
+								<path d="M7.33318 0.357422H0V14.6433H7.33318V0.357422Z" fill="#6DA544"/>
+								<path d="M22.0002 0.357422H14.667V14.6433H22.0002V0.357422Z" fill="#D80027"/>
+							</svg>
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</header>
@@ -176,16 +300,18 @@
 				<p class="cover__subtitle text-center">Наши клиенты торгуют со всем миром!</p>
 				<ul class="cover__tabs list-style-none">
 					<li class="cover-tab cover__tab">
-						<span class="cover-tab__number">01</span>
-						<div class="flex-grow-1 d-flex align-items-center justify-content-between">
-							<span class="cover-tab__title">Выводим продукты на зарубежные рынки</span>
-							<button class="cover-tab__expand-button">
-								<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M12.5 0C5.60806 0 0 5.60708 0 12.5C0 19.3929 5.60806 25 12.5 25C19.3929 25 25 19.3929 25 12.5C25 5.60708 19.3919 0 12.5 0ZM12.5 23.0635C6.67505 23.0635 1.93647 18.325 1.93647 12.5C1.93647 6.67505 6.67505 1.93647 12.5 1.93647C18.325 1.93647 23.0635 6.67505 23.0635 12.5C23.0635 18.325 18.325 23.0635 12.5 23.0635Z" fill="#415C87"/>
-									<path d="M17.3411 11.4446H7.65869C7.12422 11.4446 6.69043 11.8784 6.69043 12.4129C6.69043 12.9474 7.12422 13.3811 7.65869 13.3811H17.3411C17.8756 13.3811 18.3094 12.9474 18.3094 12.4129C18.3094 11.8784 17.8756 11.4446 17.3411 11.4446Z" fill="#415C87"/>
-									<path d="M13.4683 17.2541L13.4683 7.57168C13.4683 7.03721 13.0345 6.60342 12.5 6.60342C11.9655 6.60342 11.5317 7.03721 11.5317 7.57168L11.5317 17.2541C11.5317 17.7886 11.9655 18.2224 12.5 18.2224C13.0345 18.2224 13.4683 17.7886 13.4683 17.2541Z" fill="#415C87"/>
-								</svg>
-							</button>
+						<div class="d-flex flex-grow-1">
+							<span class="cover-tab__number">01</span>
+							<div class="flex-grow-1 d-flex align-items-center justify-content-between">
+								<span class="cover-tab__title">Выводим продукты на зарубежные рынки</span>
+								<button class="cover-tab__expand-button">
+									<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12.5 0C5.60806 0 0 5.60708 0 12.5C0 19.3929 5.60806 25 12.5 25C19.3929 25 25 19.3929 25 12.5C25 5.60708 19.3919 0 12.5 0ZM12.5 23.0635C6.67505 23.0635 1.93647 18.325 1.93647 12.5C1.93647 6.67505 6.67505 1.93647 12.5 1.93647C18.325 1.93647 23.0635 6.67505 23.0635 12.5C23.0635 18.325 18.325 23.0635 12.5 23.0635Z" fill="#415C87"/>
+										<path d="M17.3411 11.4446H7.65869C7.12422 11.4446 6.69043 11.8784 6.69043 12.4129C6.69043 12.9474 7.12422 13.3811 7.65869 13.3811H17.3411C17.8756 13.3811 18.3094 12.9474 18.3094 12.4129C18.3094 11.8784 17.8756 11.4446 17.3411 11.4446Z" fill="#415C87"/>
+										<path d="M13.4683 17.2541L13.4683 7.57168C13.4683 7.03721 13.0345 6.60342 12.5 6.60342C11.9655 6.60342 11.5317 7.03721 11.5317 7.57168L11.5317 17.2541C11.5317 17.7886 11.9655 18.2224 12.5 18.2224C13.0345 18.2224 13.4683 17.7886 13.4683 17.2541Z" fill="#415C87"/>
+									</svg>
+								</button>
+							</div>
 						</div>
 						<div class="cover-tab__content" >
 							<ul>
@@ -197,16 +323,18 @@
 						</div>
 					</li>
 					<li class="cover-tab cover__tab">
-						<span class="cover-tab__number">02</span>
-						<div class="flex-grow-1 d-flex align-items-center justify-content-between">
-							<span class="cover-tab__title">Строим стабильный <br>экспорт</span>
-							<button class="cover-tab__expand-button">
-								<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M12.5 0C5.60806 0 0 5.60708 0 12.5C0 19.3929 5.60806 25 12.5 25C19.3929 25 25 19.3929 25 12.5C25 5.60708 19.3919 0 12.5 0ZM12.5 23.0635C6.67505 23.0635 1.93647 18.325 1.93647 12.5C1.93647 6.67505 6.67505 1.93647 12.5 1.93647C18.325 1.93647 23.0635 6.67505 23.0635 12.5C23.0635 18.325 18.325 23.0635 12.5 23.0635Z" fill="#74CBEC"/>
-									<path d="M17.3411 11.4446H7.65869C7.12422 11.4446 6.69043 11.8784 6.69043 12.4129C6.69043 12.9474 7.12422 13.3811 7.65869 13.3811H17.3411C17.8756 13.3811 18.3094 12.9474 18.3094 12.4129C18.3094 11.8784 17.8756 11.4446 17.3411 11.4446Z" fill="#74CBEC"/>
-									<path d="M13.4683 17.2541L13.4683 7.57168C13.4683 7.03721 13.0345 6.60342 12.5 6.60342C11.9655 6.60342 11.5317 7.03721 11.5317 7.57168L11.5317 17.2541C11.5317 17.7886 11.9655 18.2224 12.5 18.2224C13.0345 18.2224 13.4683 17.7886 13.4683 17.2541Z" fill="#74CBEC"/>
-								</svg>
-							</button>
+						<div class="d-flex flex-grow-1">
+							<span class="cover-tab__number">02</span>
+							<div class="flex-grow-1 d-flex align-items-center justify-content-between">
+								<span class="cover-tab__title">Строим стабильный <br>экспорт</span>
+								<button class="cover-tab__expand-button">
+									<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12.5 0C5.60806 0 0 5.60708 0 12.5C0 19.3929 5.60806 25 12.5 25C19.3929 25 25 19.3929 25 12.5C25 5.60708 19.3919 0 12.5 0ZM12.5 23.0635C6.67505 23.0635 1.93647 18.325 1.93647 12.5C1.93647 6.67505 6.67505 1.93647 12.5 1.93647C18.325 1.93647 23.0635 6.67505 23.0635 12.5C23.0635 18.325 18.325 23.0635 12.5 23.0635Z" fill="#74CBEC"/>
+										<path d="M17.3411 11.4446H7.65869C7.12422 11.4446 6.69043 11.8784 6.69043 12.4129C6.69043 12.9474 7.12422 13.3811 7.65869 13.3811H17.3411C17.8756 13.3811 18.3094 12.9474 18.3094 12.4129C18.3094 11.8784 17.8756 11.4446 17.3411 11.4446Z" fill="#74CBEC"/>
+										<path d="M13.4683 17.2541L13.4683 7.57168C13.4683 7.03721 13.0345 6.60342 12.5 6.60342C11.9655 6.60342 11.5317 7.03721 11.5317 7.57168L11.5317 17.2541C11.5317 17.7886 11.9655 18.2224 12.5 18.2224C13.0345 18.2224 13.4683 17.7886 13.4683 17.2541Z" fill="#74CBEC"/>
+									</svg>
+								</button>
+							</div>
 						</div>
 						<div class="cover-tab__content">
 							<ul>
@@ -218,17 +346,19 @@
 						</div>
 					</li>
 					<li class="cover-tab cover__tab">
-						<span class="cover-tab__number">03</span>
-						<div class="flex-grow-1 d-flex align-items-center justify-content-between">
-							<span class="cover-tab__title">Масштабируем бизнес на международных рынках</span>
-							<button class="cover-tab__expand-button">
-								<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M12.5 0C5.60806 0 0 5.60708 0 12.5C0 19.3929 5.60806 25 12.5 25C19.3929 25 25 19.3929 25 12.5C25 5.60708 19.3919 0 12.5 0ZM12.5 23.0635C6.67505 23.0635 1.93647 18.325 1.93647 12.5C1.93647 6.67505 6.67505 1.93647 12.5 1.93647C18.325 1.93647 23.0635 6.67505 23.0635 12.5C23.0635 18.325 18.325 23.0635 12.5 23.0635Z" fill="#BCBCC0"/>
-									<path d="M17.3411 11.4446H7.65869C7.12422 11.4446 6.69043 11.8784 6.69043 12.4129C6.69043 12.9474 7.12422 13.3811 7.65869 13.3811H17.3411C17.8756 13.3811 18.3094 12.9474 18.3094 12.4129C18.3094 11.8784 17.8756 11.4446 17.3411 11.4446Z" fill="#BCBCC0"/>
-									<path d="M13.4683 17.2541L13.4683 7.57168C13.4683 7.03721 13.0345 6.60342 12.5 6.60342C11.9655 6.60342 11.5317 7.03721 11.5317 7.57168L11.5317 17.2541C11.5317 17.7886 11.9655 18.2224 12.5 18.2224C13.0345 18.2224 13.4683 17.7886 13.4683 17.2541Z" fill="#BCBCC0"/>
-								</svg>
+						<div class="d-flex flex-grow-1">
+							<span class="cover-tab__number">03</span>
+							<div class="flex-grow-1 d-flex align-items-center justify-content-between">
+								<span class="cover-tab__title">Масштабируем бизнес на международных рынках</span>
+								<button class="cover-tab__expand-button">
+									<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12.5 0C5.60806 0 0 5.60708 0 12.5C0 19.3929 5.60806 25 12.5 25C19.3929 25 25 19.3929 25 12.5C25 5.60708 19.3919 0 12.5 0ZM12.5 23.0635C6.67505 23.0635 1.93647 18.325 1.93647 12.5C1.93647 6.67505 6.67505 1.93647 12.5 1.93647C18.325 1.93647 23.0635 6.67505 23.0635 12.5C23.0635 18.325 18.325 23.0635 12.5 23.0635Z" fill="#BCBCC0"/>
+										<path d="M17.3411 11.4446H7.65869C7.12422 11.4446 6.69043 11.8784 6.69043 12.4129C6.69043 12.9474 7.12422 13.3811 7.65869 13.3811H17.3411C17.8756 13.3811 18.3094 12.9474 18.3094 12.4129C18.3094 11.8784 17.8756 11.4446 17.3411 11.4446Z" fill="#BCBCC0"/>
+										<path d="M13.4683 17.2541L13.4683 7.57168C13.4683 7.03721 13.0345 6.60342 12.5 6.60342C11.9655 6.60342 11.5317 7.03721 11.5317 7.57168L11.5317 17.2541C11.5317 17.7886 11.9655 18.2224 12.5 18.2224C13.0345 18.2224 13.4683 17.7886 13.4683 17.2541Z" fill="#BCBCC0"/>
+									</svg>
 
-							</button>
+								</button>
+							</div>
 						</div>
 						<div class="cover-tab__content">
 							<ul>
@@ -269,7 +399,9 @@
 			</div>
 		</section>
 
-		<section class="outved-its page-home__outved-its" style="background-image: url('img/home/outved-its/outved-its.jpg')">
+		<section class="outved-its page-home__outved-its">
+			<div class="d-none d-md-block outved-its__bg" style="background-image: url('img/home/outved-its/outved-its.jpg')"></div>
+			<div class="d-block d-md-none outved-its__bg" style="background-image: url('img/home/outved-its/outved-its-mobile.png')"></div>
 			<div class="container">
 				<div class="outved-its__content">
 					<div class="section-bar outved-its__bar"></div>
@@ -298,22 +430,22 @@
 			<h2 class="why-we__title text-uppercase">Кому мы особенно полезны?</h2>
 			<p>Наша специализация — вывод продуктов, развитие и масштабирование компаний на внешних рынках. Все чётко и пошагово: от идеи до первых продаж и дальнейшего сопровождения</p>
 			<p class="why-we__ul-title"><b>В первую очередь наши услуги будут полезны, если вы:</b></p>
-			<ul class="custom-ul custom-ul--check-mark">
-				<li>
+			<ul class="custom-ul custom-ul--inline row custom-ul--check-mark">
+				<li class="col-12 col-md-6 col-xl-4">
 					<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M14 28C21.7192 28 28 21.7198 28 14C28 12.6676 27.814 11.3545 27.4457 10.097C27.2643 9.4786 26.6186 9.12341 25.9985 9.30485C25.3796 9.48572 25.0255 10.1337 25.2064 10.7521C25.5114 11.7968 25.6667 12.89 25.6667 14C25.6667 20.4329 20.4329 25.6667 14 25.6667C7.5671 25.6667 2.33333 20.4329 2.33333 14C2.33333 7.5671 7.5671 2.33333 14 2.33333C16.3379 2.33333 18.5872 3.01693 20.5047 4.30977C21.0385 4.67008 21.7642 4.52852 22.1239 3.99475C22.484 3.46041 22.3435 2.73523 21.8092 2.3752C19.5049 0.821452 16.8047 0 14 0C6.2808 0 0 6.28023 0 14C0 21.7198 6.2808 28 14 28Z" fill="#17A8E0"/>
 						<path d="M26.0083 2.6752L13.9999 14.6831L10.1581 10.8419C9.70234 10.3864 8.96406 10.3864 8.50833 10.8419C8.05289 11.2976 8.05289 12.0359 8.50833 12.4916L13.175 17.1583C13.4031 17.3864 13.7011 17.5001 13.9999 17.5001C14.2987 17.5001 14.5966 17.3864 14.8247 17.1583L27.6581 4.32494C28.1135 3.86921 28.1135 3.13093 27.6581 2.6752C27.2023 2.21976 26.4641 2.21976 26.0083 2.6752Z" fill="#17A8E0"/>
 					</svg>
 					<span>Только планируете выходить на внешние рынки;</span>
 				</li>
-				<li>
+				<li class="col-12 col-md-6 col-xl-4">
 					<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M14 28C21.7192 28 28 21.7198 28 14C28 12.6676 27.814 11.3545 27.4457 10.097C27.2643 9.4786 26.6186 9.12341 25.9985 9.30485C25.3796 9.48572 25.0255 10.1337 25.2064 10.7521C25.5114 11.7968 25.6667 12.89 25.6667 14C25.6667 20.4329 20.4329 25.6667 14 25.6667C7.5671 25.6667 2.33333 20.4329 2.33333 14C2.33333 7.5671 7.5671 2.33333 14 2.33333C16.3379 2.33333 18.5872 3.01693 20.5047 4.30977C21.0385 4.67008 21.7642 4.52852 22.1239 3.99475C22.484 3.46041 22.3435 2.73523 21.8092 2.3752C19.5049 0.821452 16.8047 0 14 0C6.2808 0 0 6.28023 0 14C0 21.7198 6.2808 28 14 28Z" fill="#17A8E0"/>
 						<path d="M26.0083 2.6752L13.9999 14.6831L10.1581 10.8419C9.70234 10.3864 8.96406 10.3864 8.50833 10.8419C8.05289 11.2976 8.05289 12.0359 8.50833 12.4916L13.175 17.1583C13.4031 17.3864 13.7011 17.5001 13.9999 17.5001C14.2987 17.5001 14.5966 17.3864 14.8247 17.1583L27.6581 4.32494C28.1135 3.86921 28.1135 3.13093 27.6581 2.6752C27.2023 2.21976 26.4641 2.21976 26.0083 2.6752Z" fill="#17A8E0"/>
 					</svg>
 					<span>Стремитесь к расширению объёмов экспортных продаж;</span>
 				</li>
-				<li>
+				<li class="col-12 col-md-6 col-xl-4">
 					<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M14 28C21.7192 28 28 21.7198 28 14C28 12.6676 27.814 11.3545 27.4457 10.097C27.2643 9.4786 26.6186 9.12341 25.9985 9.30485C25.3796 9.48572 25.0255 10.1337 25.2064 10.7521C25.5114 11.7968 25.6667 12.89 25.6667 14C25.6667 20.4329 20.4329 25.6667 14 25.6667C7.5671 25.6667 2.33333 20.4329 2.33333 14C2.33333 7.5671 7.5671 2.33333 14 2.33333C16.3379 2.33333 18.5872 3.01693 20.5047 4.30977C21.0385 4.67008 21.7642 4.52852 22.1239 3.99475C22.484 3.46041 22.3435 2.73523 21.8092 2.3752C19.5049 0.821452 16.8047 0 14 0C6.2808 0 0 6.28023 0 14C0 21.7198 6.2808 28 14 28Z" fill="#17A8E0"/>
 						<path d="M26.0083 2.6752L13.9999 14.6831L10.1581 10.8419C9.70234 10.3864 8.96406 10.3864 8.50833 10.8419C8.05289 11.2976 8.05289 12.0359 8.50833 12.4916L13.175 17.1583C13.4031 17.3864 13.7011 17.5001 13.9999 17.5001C14.2987 17.5001 14.5966 17.3864 14.8247 17.1583L27.6581 4.32494C28.1135 3.86921 28.1135 3.13093 27.6581 2.6752C27.2023 2.21976 26.4641 2.21976 26.0083 2.6752Z" fill="#17A8E0"/>
@@ -325,8 +457,8 @@
 
 		<section class="we-help-you page-home__we-help-you container">
 			<h2 class="we-help-you__title">Мы поможем вам в следующих ситуациях:</h2>
-			<ul class="we-help-you__list list-style-none row pl-0 mb-0">
-				<li class="we-help-you__item col-12 col-md-6 col-lg-3">
+			<ul class="we-help-you__list list-style-none row justify-content-center pl-0 mb-0">
+				<li class="we-help-you__item col-12 col-md-6 col-lg-4 col-xl-3">
 					<div class="we-help-you__item-icon">
 						<span class="we-help-you__item-number">01</span>
 						<svg width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -340,7 +472,7 @@
 					</div>
 					<p class="we-help-you__item-text">Вы ищете четкий проверенный алгоритм запуска и развития своего экспортного проекта</p>
 				</li>
-				<li class="we-help-you__item col-12 col-md-6 col-lg-3">
+				<li class="we-help-you__item col-12 col-md-6 col-lg-4 col-xl-3">
 					<div class="we-help-you__item-icon">
 						<span class="we-help-you__item-number">02</span>
 						<svg width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -352,7 +484,7 @@
 					</div>
 					<p class="we-help-you__item-text">Вы хотите делегировать всю операционную работу по выводу продуктов, развитию и масштабированию на международных рынках</p>
 				</li>
-				<li class="we-help-you__item col-12 col-md-6 col-lg-3">
+				<li class="we-help-you__item col-12 col-md-6 col-lg-4 col-xl-3">
 					<div class="we-help-you__item-icon">
 						<span class="we-help-you__item-number">03</span>
 						<svg width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -376,7 +508,7 @@
 					</div>
 					<p class="we-help-you__item-text">Вы хотите оптимизировать бизнес - процессы по ВЭД, чтобы сделать их еще более эффективными и выгодными для своей компании</p>
 				</li>
-				<li class="we-help-you__item col-12 col-md-6 col-lg-3">
+				<li class="we-help-you__item col-12 col-md-6 col-lg-4 col-xl-3">
 					<div class="we-help-you__item-icon">
 						<span class="we-help-you__item-number">04</span>
 						<svg width="100" height="82" viewBox="0 0 100 82" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -391,16 +523,16 @@
 				</li>
 			</ul>
 			<div class="text-center">
-				<a href="https://outved.pro/consult/" class="we-help-you__button button button--accent text-uppercase px-4">Зарегистрироваться на консультацию</a>
+				<a href="https://outved.pro/consult/" class="we-help-you__button button button--accent text-uppercase px-3 px-lg-4">Зарегистрироваться на консультацию</a>
 			</div>
 		</section>
 
 		<section class="text-block text-block--right text-block--with-image page-home__tree-month container">
 			<div class="text-block__wrap row align-items-center">
-				<div class="text-block__image col-12 col-md-6">
+				<div class="text-block__image col-12 col-lg-6">
 					<img src="img/home/text-blocks/tree-month.png" class="img-responsive" alt="Tree month map">
 				</div>
-				<div class="text-block__content col-12 col-md-6">
+				<div class="text-block__content col-12 col-lg-6">
 					<div class="section-bar"></div>
 					<h2 class="text-block__title">Пошаговый алгоритм <br> ЭКСПОРТ ЗА 3 МЕСЯЦА</h2>
 					<p class="text-block__p">Компания OUTVED – автор уникальной системы, позволяющей локальным компаниям:</p>
@@ -418,7 +550,7 @@
 			<div class="container">
 				<h2 class="services__title"><span style="color: #17A8E0;">Кликайте</span> по интересующему вас формату взаимодействия и переходите на страницу с подробной информацией</h2>
 				<div class="services__tiles row">
-					<div class="col-12 col-md-5">
+					<div class="col-12 col-lg-5">
 						<div class="services__tile-wrap h-100">
 							<div class="service services__tile" style="background-image: url('img/home/services/tile-1.jpg')">
 								<div class="service__content">
@@ -439,7 +571,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-7">
+					<div class="col-12 col-lg-7">
 						<div class="services__tile-wrap">
 							<div class="service services__tile" style="background-image: url('img/home/services/tile-2.jpg')">
 								<div class="service__content">
@@ -482,12 +614,18 @@
 
 		<section class="text-block text-block--right text-block--with-image page-home__how-long container">
 			<div class="text-block__wrap row align-items-center">
-				<div class="text-block__image col-12 col-md-6">
-					<img src="img/home/text-blocks/how-long.png" class="img-responsive" alt="Tree month map">
-				</div>
-				<div class="text-block__content col-12 col-md-6">
+				<div class="d-block d-md-none text-center px-3">
 					<div class="section-bar"></div>
 					<h2 class="text-block__title text-uppercase">Давно работаете на внешних рынках?</h2>
+				</div>
+				<div class="text-block__image col-12 col-lg-6">
+					<img src="img/home/text-blocks/how-long.png" class="img-responsive" alt="Tree month map">
+				</div>
+				<div class="text-block__content col-12 col-lg-6">
+					<div class="d-none d-md-block">
+						<div class="section-bar"></div>
+						<h2 class="text-block__title text-uppercase">Давно работаете на внешних рынках?</h2>
+					</div>
 					<p class="text-block__p">Наша технология позволяет осуществить новый эффективный шаг масштабирования на международных рынках.</p>
 					<p class="text-block__p"><b>ЭКСПОРТ ЗА 3 МЕСЯЦА</b> - это карта короткого пути к Вашим целям: быстрее, дешевле и технологичнее.</p>
 					<ul class="text-block__ul custom-ul custom-ul--disc">
@@ -495,19 +633,25 @@
 						<li>Вывести свою компанию в ТОПы на международных рынках;</li>
 						<li>Четкий алгоритм запуска продаж на новых рынках.</li>
 					</ul>
-					<button class="button button--accent px-4 mt-4" data-toggle="modal" data-target="#modal-contact-form">Зарегистрироваться на диагностику</button>
+					<button class="text-block__button button button--accent px-4 mt-4" data-toggle="modal" data-target="#modal-contact-form">Зарегистрироваться на диагностику</button>
 				</div>
 			</div>
 		</section>
 
 		<section class="text-block text-block--left text-block--with-image page-home__something-wrong container">
 			<div class="text-block__wrap row align-items-center">
-				<div class="text-block__image col-12 col-md-6">
-					<img src="img/home/text-blocks/something-wrong.png" class="img-responsive" alt="Tree month map">
-				</div>
-				<div class="text-block__content col-12 col-md-6">
+				<div class="d-block d-md-none text-center px-3">
 					<div class="section-bar"></div>
 					<h2 class="text-block__title text-uppercase">Запустили экспорт, но что-то не так?</h2>
+				</div>
+				<div class="text-block__image col-12 col-lg-6">
+					<img src="img/home/text-blocks/something-wrong.png" class="img-responsive" alt="Tree month map">
+				</div>
+				<div class="text-block__content col-12 col-lg-6">
+					<div class="d-none d-md-block">
+						<div class="section-bar"></div>
+						<h2 class="text-block__title text-uppercase">Запустили экспорт, но что-то не так?</h2>
+					</div>
 					<p class="text-block__p">Прошли кучу тренингов, посмотрели тонну обучающего видео, многое уже реализовали, но есть чувство, что чего-то чуть-чуть не хватает...</p>
 					<ul class="text-block__ul custom-ul custom-ul--disc">
 						<li>Как добиться системных устойчивых экспортных продаж?</li>
@@ -516,19 +660,25 @@
 					</ul>
 					<p class="text-block__p">Сотни и тысячи компаний уже проходили этой дорогой - из локальных компаний в международные.</p>
 					<p class="text-block__p">Существует конкретный план действий и трансформаций с ответами на все Ваши вопросы, который ведет к результату <br><b>Приятному финансовому результату!</b></p>
-					<button class="button button--accent px-4 mt-4" data-toggle="modal" data-target="#modal-contact-form">Зарегистрироваться на диагностику</button>
+					<button class="text-block__button button button--accent px-4 mt-4" data-toggle="modal" data-target="#modal-contact-form">Зарегистрироваться на диагностику</button>
 				</div>
 			</div>
 		</section>
 
 		<section class="text-block text-block--right text-block--with-image page-home__ready container">
 			<div class="text-block__wrap row align-items-center">
-				<div class="text-block__image col-12 col-md-6">
-					<img src="img/home/text-blocks/ready.png" class="img-responsive" alt="Tree month map">
-				</div>
-				<div class="text-block__content col-12 col-md-6">
+				<div class="d-block d-md-none text-center px-3">
 					<div class="section-bar"></div>
 					<h2 class="text-block__title text-uppercase">Насколько вы готовы к экспорту?</h2>
+				</div>
+				<div class="text-block__image col-12 col-lg-6">
+					<img src="img/home/text-blocks/ready.png" class="img-responsive" alt="Tree month map">
+				</div>
+				<div class="text-block__content col-12 col-lg-6">
+					<div class="d-none d-md-block">
+						<div class="section-bar"></div>
+						<h2 class="text-block__title text-uppercase">Насколько вы готовы к экспорту?</h2>
+					</div>
 					<p class="text-block__p">Одно из уникальных отличий компании OUTVED – мы работаем не только с клиентами,
 						которые решили покорять внешние рынки.</p>
 					<p class="text-block__p"><b>Одно из уникальных отличий компании OUTVED – мы работаем не только с клиентами, которые решили покорять внешние рынки.</b></p>
@@ -537,7 +687,7 @@
 						<li>Нужны ли нам иностранные рынки, если мы еще развиваемся на локальном?</li>
 						<li>Где найти персонал для осуществления экспортных операций?</li>
 					</ul>
-					<button class="button button--accent px-4 mt-4" data-toggle="modal" data-target="#modal-contact-form">Зарегистрироваться на диагностику</button>
+					<button class="text-block__button button button--accent px-4 mt-4" data-toggle="modal" data-target="#modal-contact-form">Зарегистрироваться на диагностику</button>
 				</div>
 			</div>
 		</section>
@@ -573,7 +723,7 @@
 		<section class="clients page-home__clients container">
 			<div class="clients__header text-center">
 				<div class="section-bar mx-auto"></div>
-				<h2 class="clients__title">Наши клиенты торгуют со всем миром!</h2>
+				<h2 class="clients__title text-uppercase">Наши клиенты торгуют со всем миром!</h2>
 				<p class="clients__subtitle">Компания OUTVED находит для своих клиентов наиболее выгодные рынки по всему миру конкретно в каждом случае.</p>
 			</div>
 			<div class="clients__content" style="background-image: url('img/home/clients/content-bg.png')">
@@ -961,7 +1111,7 @@
 		<section class="we-help-you we-help-you--2 page-home__we-help-you container">
 			<h2 class="we-help-you__title text-center">Конечно можно постоянно откладывать решение этих вопросов. Только скажите, что в результате этого поменяется? <span style="color: #17A8E0">Ничего.</span></h2>
 			<ul class="we-help-you__list list-style-none row pl-0 mb-0">
-				<li class="we-help-you__item col-12 col-md-6 col-lg-4">
+				<li class="we-help-you__item col-12 col-md-4">
 					<div class="we-help-you__item-icon">
 						<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M62.5312 13.3898H64.694C65.4485 13.3898 66.0603 12.778 66.0603 12.0235C66.0603 11.269 65.4485 10.6572 64.694 10.6572H59.5021C58.7476 10.6572 58.1358 11.269 58.1358 12.0235V17.2154C58.1358 17.9699 58.7476 18.5817 59.5021 18.5817C60.2566 18.5817 60.8684 17.9699 60.8684 17.2154V15.7121C65.014 21.2621 67.2674 27.9961 67.2674 35C67.2674 52.7924 52.7924 67.2674 35 67.2674C17.2076 67.2674 2.73258 52.7924 2.73258 35C2.73258 17.2076 17.2076 2.73258 35 2.73258C36.3159 2.73258 37.6402 2.81251 38.9366 2.97004C39.6846 3.06049 40.3668 2.52777 40.4578 1.77864C40.5489 1.02964 40.0155 0.348404 39.2664 0.257409C37.861 0.0866228 36.4257 0 35 0C25.6512 0 16.8618 3.64062 10.2513 10.2513C3.64062 16.8618 0 25.6512 0 35C0 44.3488 3.64062 53.1382 10.2513 59.7487C16.8618 66.3594 25.6512 70 35 70C44.3488 70 53.1382 66.3594 59.7487 59.7487C66.3594 53.1382 70 44.3488 70 35C70 27.1109 67.3644 19.5373 62.5312 13.3898Z" fill="#17A8E0"/>
@@ -977,7 +1127,7 @@
 					</div>
 					<p class="we-help-you__item-text">Вы откладываете и даже не знаете, что ваш бизнес уже готов.</p>
 				</li>
-				<li class="we-help-you__item col-12 col-md-6 col-lg-4">
+				<li class="we-help-you__item col-12 col-md-4">
 					<div class="we-help-you__item-icon">
 						<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M60.8233 9.17014C54.9098 3.25664 47.0475 0 38.6847 0C30.3219 0 22.4597 3.25664 16.5462 9.17014C10.6329 15.0835 7.37607 22.9458 7.37607 31.3086C7.37607 33.4905 7.60344 35.6646 8.04873 37.7832C3.21518 40.9009 0.00830078 46.3329 0.00830078 52.5C0.00830078 62.1495 7.85883 70 17.5083 70C23.6803 70 29.116 66.7882 32.2325 61.9482C34.3432 62.3902 36.5108 62.6172 38.6848 62.6172C43.7064 62.6172 48.5034 61.4638 52.9429 59.1892C53.615 58.845 53.8806 58.0211 53.5363 57.3491C53.1919 56.6769 52.3678 56.4115 51.6962 56.7558C47.6462 58.8308 43.2686 59.8828 38.6847 59.8828C36.9678 59.8828 35.2558 59.7274 33.5782 59.4252C34.4975 57.3002 35.0082 54.9588 35.0082 52.5C35.0082 42.8505 27.1576 35 17.5082 35C15.0448 35 12.6992 35.5127 10.5711 36.4351C10.2663 34.7509 10.1103 33.0328 10.1103 31.3086C10.1103 30.4013 10.1547 29.5043 10.2379 28.6184L15.0184 24.3724C16.0676 23.4407 17.4182 22.9275 18.8213 22.9275H29.0457C33.0789 22.9275 36.3602 19.6462 36.3602 15.613C36.3602 11.5798 33.0789 8.29856 29.0457 8.29856H28.7019C28.3169 8.29856 27.9539 8.11111 27.7312 7.79721L26.1843 5.6175C29.9627 3.77193 34.2047 2.73438 38.6847 2.73438C43.9177 2.73438 48.8259 4.14969 53.0488 6.61568C48.8267 7.05756 45.568 10.6423 45.568 14.9276C45.568 15.6056 45.0164 16.1574 44.3383 16.1574C41.0509 16.1574 38.3765 18.8319 38.3765 22.1192C38.3765 23.7077 38.9124 25.1727 39.8116 26.3454H38.5899C35.5486 26.3454 33.0743 28.8198 33.0743 31.8611V33.6876C33.0743 36.7289 35.5486 39.2031 38.5899 39.2031C39.5907 39.2031 40.405 40.0174 40.405 41.0182V50.0485C40.405 51.0147 40.9877 51.8633 41.8894 52.2104C42.1642 52.3161 42.4481 52.3675 42.7285 52.3675C43.3685 52.3675 43.9899 52.1001 44.4403 51.6016L46.6762 49.1277C46.9572 48.8168 47.3588 48.6384 47.778 48.6384C50.1046 48.6384 51.9974 46.7455 51.9974 44.4191V40.294C51.9974 39.953 52.2746 39.6758 52.6155 39.6758H53.3371C55.8055 39.6758 57.8138 37.6677 57.8138 35.1991V35.0044C57.8138 32.6432 55.8929 30.7223 53.5318 30.7223C53.1909 30.7223 52.9137 30.4451 52.9137 30.1042C52.9137 29.749 52.8631 29.4056 52.7705 29.0797H67.1722C67.2292 29.8152 67.2586 30.5586 67.2586 31.3085C67.2586 38.3299 64.6879 45.0803 60.0203 50.3159C59.5177 50.8795 59.5674 51.7437 60.1311 52.2461C60.3916 52.4785 60.7165 52.5928 61.0402 52.5928C61.4165 52.5928 61.7912 52.4383 62.0613 52.1354C67.1762 46.3982 69.9931 39.0018 69.9931 31.3083C69.9933 22.9458 66.7366 15.0835 60.8233 9.17014ZM32.2739 52.5C32.2739 60.6419 25.6502 67.2656 17.5083 67.2656C9.36642 67.2656 2.74268 60.6419 2.74268 52.5C2.74268 44.3581 9.36642 37.7344 17.5083 37.7344C25.6502 37.7344 32.2739 44.3581 32.2739 52.5ZM25.5017 9.37973C26.2363 10.4148 27.4329 11.0329 28.7023 11.0329H29.0461C31.5716 11.0329 33.6262 13.0875 33.6262 15.613C33.6262 18.1385 31.5716 20.1931 29.0461 20.1931H18.8218C16.7486 20.1931 14.753 20.9513 13.2029 22.3281L10.9811 24.3015C12.8312 16.9903 17.5065 10.793 23.7729 6.94367L25.5017 9.37973ZM50.1794 30.1044C50.1794 31.9529 51.6833 33.4569 53.5319 33.4569C54.3853 33.4569 55.0796 34.1511 55.0796 35.0045V35.1992C55.0796 36.1599 54.298 36.9415 53.3372 36.9415H52.6156C50.7671 36.9415 49.2631 38.4456 49.2631 40.2942V44.4192C49.2631 45.238 48.5969 45.9041 47.7781 45.9041C46.5873 45.9041 45.4462 46.4108 44.6478 47.2944L43.1396 48.9631V41.0184C43.1396 38.5097 41.0987 36.4689 38.5902 36.4689C37.0566 36.4689 35.8089 35.2212 35.8089 33.6878V31.8612C35.8089 30.3276 37.0566 29.0799 38.5902 29.0799H45.3374H49.1551C49.7198 29.0798 50.1794 29.5395 50.1794 30.1044ZM49.1549 26.3454H45.3371C43.0068 26.3454 41.1109 24.4496 41.1109 22.1192C41.1109 20.3395 42.5587 18.8918 44.3383 18.8918C46.5241 18.8918 48.3024 17.1135 48.3024 14.9276C48.3024 11.9654 50.6152 9.49977 53.5676 9.31437C53.6287 9.31055 53.6882 9.30139 53.7467 9.2899C53.8058 9.2977 53.8656 9.30316 53.9269 9.30316H56.8922C60.5241 12.3134 63.4003 16.2043 65.1931 20.6445H58.6076C57.8526 20.6445 57.2404 21.2566 57.2404 22.0117C57.2404 22.7668 57.8526 23.3789 58.6076 23.3789H66.1385C66.4188 24.3478 66.6493 25.3375 66.8264 26.3454H49.1549Z" fill="#17A8E0"/>
@@ -992,7 +1142,7 @@
 					</div>
 					<p class="we-help-you__item-text">Уже давно работаете на внешних рынках и никак не решитесь идти дальше?</p>
 				</li>
-				<li class="we-help-you__item col-12 col-md-6 col-lg-4">
+				<li class="we-help-you__item col-12 col-md-4">
 					<div class="we-help-you__item-icon">
 						<svg width="70" height="68" viewBox="0 0 70 68" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M68.5417 68.0002H1.45833C0.653333 68.0002 0 67.3467 0 66.5416C0 65.7365 0.653333 65.083 1.45833 65.083H68.5417C69.3467 65.083 70 65.7365 70 66.5416C70 67.3467 69.3467 68.0002 68.5417 68.0002Z" fill="#17A8E0"/>
@@ -1021,7 +1171,7 @@
 				</div>
 				<div class="cases__content">
 					<ul class="cases__items list-style-none pl-0 mb-0 row">
-						<li class="case cases__item col-12 col-md-6 col-lg-4">
+						<li class="case cases__item col-12 col-lg-4">
 							<article class="case__content" style="background-image: url('img/home/cases/1.jpg')">
 								<div class="case__bar"></div>
 								<div class="case__dots">
@@ -1032,7 +1182,7 @@
 								<h4 class="case__title">Запуск экспортных продаж фурнитуры, аксессуаров и элементов декора</h4>
 								<p class="case__description">Проект длился 14 месяцев. Сформирован прочный фундамент развития на внешних рынках: Экспортные маркетинг В2В материалы, Сформирована база для работы отдела продаж, Организованы схемы поставок. Заключены первые 5 контрактов.</p>
 								<footer class="case__footer">
-									<a href="#" class="case__link text-uppercase text-underline d-flex align-items-center justify-content-between">
+									<a href="https://outved.pro/portfolio/zapusk-eksportnyh-prodazh-furnitury-aksessuarov-i-elementov-dekora/" class="case__link text-uppercase text-underline d-flex align-items-center justify-content-between">
 										<span>Подбробнее</span>
 										<svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M29.8169 9.55812L20.4419 0.18312C20.1977 -0.06104 19.8022 -0.06104 19.5581 0.18312C19.314 0.42728 19.314 0.822788 19.5581 1.06689L27.8663 9.37501H0.62502C0.279551 9.37501 0 9.65456 0 10C0 10.3455 0.279551 10.6251 0.62502 10.6251H27.8663L19.5581 18.9331C19.314 19.1773 19.314 19.5728 19.5581 19.8169C19.6802 19.9389 19.8401 20 20 20C20.1599 20 20.3198 19.9389 20.442 19.8169L29.817 10.4419C30.0611 10.1978 30.0611 9.80228 29.8169 9.55812Z" fill="#17A8E0"/>
@@ -1041,7 +1191,7 @@
 								</footer>
 							</article>
 						</li>
-						<li class="case cases__item col-12 col-md-6 col-lg-4">
+						<li class="case cases__item col-12 col-lg-4">
 							<article class="case__content" style="background-image: url('img/home/cases/2.jpg')">
 								<div class="case__bar"></div>
 								<div class="case__dots">
@@ -1052,7 +1202,7 @@
 								<h4 class="case__title">Запуск экспорта мясо-колбасных изделий</h4>
 								<p class="case__description">Еще в процессе подготовки к работе на экспорт компания Маршалок значительно повысила объемы продаж на локальном рынке: проведен ребрендинг, усилен маркетинг компании. Проведены переговоры и переданы 15 иностранных клиентов готовых к сотрудничеству и подписанию внешнеэкономических контрактов.</p>
 								<footer class="case__footer">
-									<a href="#" class="case__link text-uppercase text-underline d-flex align-items-center justify-content-between">
+									<a href="https://outved.pro/portfolio/zapusk-ehksporta-myaso-kolbasnyh-izdelij/" class="case__link text-uppercase text-underline d-flex align-items-center justify-content-between">
 										<span>Подбробнее</span>
 										<svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M29.8169 9.55812L20.4419 0.18312C20.1977 -0.06104 19.8022 -0.06104 19.5581 0.18312C19.314 0.42728 19.314 0.822788 19.5581 1.06689L27.8663 9.37501H0.62502C0.279551 9.37501 0 9.65456 0 10C0 10.3455 0.279551 10.6251 0.62502 10.6251H27.8663L19.5581 18.9331C19.314 19.1773 19.314 19.5728 19.5581 19.8169C19.6802 19.9389 19.8401 20 20 20C20.1599 20 20.3198 19.9389 20.442 19.8169L29.817 10.4419C30.0611 10.1978 30.0611 9.80228 29.8169 9.55812Z" fill="#17A8E0"/>
@@ -1061,7 +1211,7 @@
 								</footer>
 							</article>
 						</li>
-						<li class="case cases__item col-12 col-md-6 col-lg-4">
+						<li class="case cases__item col-12 col-lg-4">
 							<article class="case__content" style="background-image: url('img/home/cases/3.jpg')">
 								<div class="case__bar"></div>
 								<div class="case__dots">
@@ -1072,7 +1222,7 @@
 								<h4 class="case__title">Запуск экспорта молочной продукции в Китай</h4>
 								<p class="case__description">Заключены первые экспортные контракты, рост продаж на 52% за 4 месяца 2017 в сравнении с 2016 годом.</p>
 								<footer class="case__footer">
-									<a href="#" class="case__link text-uppercase text-underline d-flex align-items-center justify-content-between">
+									<a href="https://outved.pro/portfolio/zapusk-eksportnyh-prodazh-detskoj-odezhdy/" class="case__link text-uppercase text-underline d-flex align-items-center justify-content-between">
 										<span>Подбробнее</span>
 										<svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M29.8169 9.55812L20.4419 0.18312C20.1977 -0.06104 19.8022 -0.06104 19.5581 0.18312C19.314 0.42728 19.314 0.822788 19.5581 1.06689L27.8663 9.37501H0.62502C0.279551 9.37501 0 9.65456 0 10C0 10.3455 0.279551 10.6251 0.62502 10.6251H27.8663L19.5581 18.9331C19.314 19.1773 19.314 19.5728 19.5581 19.8169C19.6802 19.9389 19.8401 20 20 20C20.1599 20 20.3198 19.9389 20.442 19.8169L29.817 10.4419C30.0611 10.1978 30.0611 9.80228 29.8169 9.55812Z" fill="#17A8E0"/>
@@ -1081,7 +1231,7 @@
 								</footer>
 							</article>
 						</li>
-						<li class="case cases__item col-12 col-md-6 col-lg-4">
+						<li class="case cases__item col-12 col-lg-4">
 							<article class="case__content" style="background-image: url('img/home/cases/4.jpg')">
 								<div class="case__bar"></div>
 								<div class="case__dots">
@@ -1092,7 +1242,7 @@
 								<h4 class="case__title">Запуск экспорта молочной продукции в Китай</h4>
 								<p class="case__description">Заключены первые экспортные контракты, рост продаж на 52% за 4 месяца 2017 в сравнении с 2016 годом.</p>
 								<footer class="case__footer">
-									<a href="#" class="case__link text-uppercase text-underline d-flex align-items-center justify-content-between">
+									<a href="https://outved.pro/portfolio/zapusk-eksporta-molochnoj-produktsii-v-kitaj/" class="case__link text-uppercase text-underline d-flex align-items-center justify-content-between">
 										<span>Подбробнее</span>
 										<svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M29.8169 9.55812L20.4419 0.18312C20.1977 -0.06104 19.8022 -0.06104 19.5581 0.18312C19.314 0.42728 19.314 0.822788 19.5581 1.06689L27.8663 9.37501H0.62502C0.279551 9.37501 0 9.65456 0 10C0 10.3455 0.279551 10.6251 0.62502 10.6251H27.8663L19.5581 18.9331C19.314 19.1773 19.314 19.5728 19.5581 19.8169C19.6802 19.9389 19.8401 20 20 20C20.1599 20 20.3198 19.9389 20.442 19.8169L29.817 10.4419C30.0611 10.1978 30.0611 9.80228 29.8169 9.55812Z" fill="#17A8E0"/>
@@ -1101,7 +1251,7 @@
 								</footer>
 							</article>
 						</li>
-						<li class="case cases__item col-12 col-md-6 col-lg-4">
+						<li class="case cases__item col-12 col-lg-4">
 							<article class="case__content" style="background-image: url('img/home/cases/5.jpg')">
 								<div class="case__bar"></div>
 								<div class="case__dots">
@@ -1112,7 +1262,7 @@
 								<h4 class="case__title">Организация и сопровождение поставки аэродинамического оборудования из РФ в Украину «под ключ»</h4>
 								<p class="case__description">Оборудование доставлено и оформлено на таможне. Услуги OUTVED составили 1,6% стоимости инвойса.</p>
 								<footer class="case__footer">
-									<a href="#" class="case__link text-uppercase text-underline d-flex align-items-center justify-content-between">
+									<a href="https://outved.pro/portfolio/organizatsiya-postavki-tehnologicheskoj-linii-kitaj-ukraina/" class="case__link text-uppercase text-underline d-flex align-items-center justify-content-between">
 										<span>Подбробнее</span>
 										<svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M29.8169 9.55812L20.4419 0.18312C20.1977 -0.06104 19.8022 -0.06104 19.5581 0.18312C19.314 0.42728 19.314 0.822788 19.5581 1.06689L27.8663 9.37501H0.62502C0.279551 9.37501 0 9.65456 0 10C0 10.3455 0.279551 10.6251 0.62502 10.6251H27.8663L19.5581 18.9331C19.314 19.1773 19.314 19.5728 19.5581 19.8169C19.6802 19.9389 19.8401 20 20 20C20.1599 20 20.3198 19.9389 20.442 19.8169L29.817 10.4419C30.0611 10.1978 30.0611 9.80228 29.8169 9.55812Z" fill="#17A8E0"/>
@@ -1121,7 +1271,7 @@
 								</footer>
 							</article>
 						</li>
-						<li class="case cases__item col-12 col-md-6 col-lg-4">
+						<li class="case cases__item col-12 col-lg-4">
 							<article class="case__content" style="background-image: url('img/home/cases/6.jpg')">
 								<div class="case__bar"></div>
 								<div class="case__dots">
@@ -1132,7 +1282,7 @@
 								<h4 class="case__title">Организация системных поставок газового оборудования из Польши, США, Южной Кореи и Швейцарии</h4>
 								<p class="case__description">Работу в проектах организовали с жесткими привязками к датам реализации этапов, что позволило работать на меньших оборотных средствах и получить конкурентное преимущество в сроках реализации. Услуги OUTVED в среднем 1,1% стоимости инвойса.</p>
 								<footer class="case__footer">
-									<a href="#" class="case__link text-uppercase text-underline d-flex align-items-center justify-content-between">
+									<a href="https://outved.pro/portfolio/organizatsiya-i-soprovozhdenie-postavki-aerodinamicheskogo-oborudovaniya-pod-klyuch/" class="case__link text-uppercase text-underline d-flex align-items-center justify-content-between">
 										<span>Подбробнее</span>
 										<svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M29.8169 9.55812L20.4419 0.18312C20.1977 -0.06104 19.8022 -0.06104 19.5581 0.18312C19.314 0.42728 19.314 0.822788 19.5581 1.06689L27.8663 9.37501H0.62502C0.279551 9.37501 0 9.65456 0 10C0 10.3455 0.279551 10.6251 0.62502 10.6251H27.8663L19.5581 18.9331C19.314 19.1773 19.314 19.5728 19.5581 19.8169C19.6802 19.9389 19.8401 20 20 20C20.1599 20 20.3198 19.9389 20.442 19.8169L29.817 10.4419C30.0611 10.1978 30.0611 9.80228 29.8169 9.55812Z" fill="#17A8E0"/>
