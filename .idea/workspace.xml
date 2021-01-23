@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22d3198d-8463-4647-b81d-64336c048e1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Black.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Black.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-SemiBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/FiraSans/FiraSans-SemiBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/RobontaC/RotondaC.eot" beforeDir="false" afterPath="$PROJECT_DIR$/app/fonts/RobontaC/RotondaC.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/RobontaC/RotondaC.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/fonts/RobontaC/RotondaC.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/RobontaC/RotondaC.woff" beforeDir="false" afterPath="$PROJECT_DIR$/app/fonts/RobontaC/RotondaC.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +77,7 @@
       <workItem from="1611185466446" duration="82000" />
       <workItem from="1611190319897" duration="6377000" />
       <workItem from="1611213832808" duration="4000" />
-      <workItem from="1611281757966" duration="37665000" />
+      <workItem from="1611281757966" duration="38181000" />
     </task>
     <servers />
   </component>
