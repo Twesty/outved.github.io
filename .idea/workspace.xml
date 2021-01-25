@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="22d3198d-8463-4647-b81d-64336c048e1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,25 +34,25 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/css/pages/page-home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/libs" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\Outved.new\app\libs" />
+      <recent name="D:\WebPR\Outved\app\css\pages\page-home" />
+      <recent name="D:\WebPR\Outved\app\libs" />
+      <recent name="D:\WebPR\Outved\app\img\home\outved-its" />
+      <recent name="D:\WebPR\Outved\app\libs\youtube-popup" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WebPR\Outved\app\img\home\international" />
       <recent name="D:\WebPR\Outved\app\scss\parts\footer" />
       <recent name="D:\WebPR\Outved\app\img\footer" />
       <recent name="D:\WebPR\Outved\app\img" />
       <recent name="D:\WebPR\Outved\app\img\favicon" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WebPR\Outved\app\libs" />
-      <recent name="D:\WebPR\Outved\app\img\home\outved-its" />
-      <recent name="D:\WebPR\Outved\app\libs\youtube-popup" />
-      <recent name="D:\WebPR\Outved\app\libs\country-code" />
-      <recent name="D:\WebPR\Outved\app\libs\bootstrap" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -80,7 +83,8 @@
       <workItem from="1611213832808" duration="4000" />
       <workItem from="1611281757966" duration="40072000" />
       <workItem from="1611486005477" duration="783000" />
-      <workItem from="1611557089793" duration="2171000" />
+      <workItem from="1611557089793" duration="2980000" />
+      <workItem from="1611560477993" duration="1222000" />
     </task>
     <servers />
   </component>

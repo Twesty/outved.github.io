@@ -15,10 +15,8 @@ var gulp          = require('gulp')
 
 // Local Server
 gulp.task('browser-sync', function() {
-	browserSync({
-		server: {
-			baseDir: 'app'
-		},
+	browserSync.init({
+		proxy: 'localhost/outved.new/app',
 		notify: false,
 		// open: false,
 		// online: false, // Work Offline Without Internet Connection
@@ -70,14 +68,14 @@ gulp.task('scripts', function() {
 
 // HTML Live Reload
 gulp.task('code', function() {
-	return gulp.src('app/*.html')
+	return gulp.src('app/*.php')
 	.pipe(browserSync.reload({ stream: true }))
 });
 
 gulp.task('watch', function() {
 	gulp.watch('app/'+syntax+'/**/*.'+syntax+'', gulp.parallel('styles'));
 	gulp.watch(['libs/**/*.js', 'app/js/common.js'], gulp.parallel('scripts'));
-	gulp.watch('app/*.html', gulp.parallel('code'));
+	gulp.watch('app/*.php', gulp.parallel('code'));
 
 	// Page scripts
 	gulp.watch(['app/js/src/pages/page-home/home.js'], gulp.parallel('page-home-scripts'));

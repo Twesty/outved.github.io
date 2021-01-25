@@ -42,45 +42,15 @@
 	<link rel="stylesheet" href="css/pages/page-home/home.min.css">
 
 	<!-- Google Analytics START -->
-	<script>
-		window.dataLayer = window.dataLayer || [];
-
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-
-		gtag('js', new Date());
-
-		gtag('config', 'UA-34011940-1');
-
-		setTimeout(function () {
-			gtag('event', location.pathname, {
-				'event_category': 'Новый посетитель'
-			});
-		}, 10000);
-	</script>
+    <script async src="libs/GA.js"></script>
 	<!-- Google Analytics END -->
 
 	<!-- Google Tag Manager START -->
-	<script>
-		(function (w, d, s, l, i) {
-			w[l] = w[l] || [];
-			w[l].push({
-				'gtm.start':
-						new Date().getTime(), event: 'gtm.js'
-			});
-			var f = d.getElementsByTagName(s)[0],
-					j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-			j.async = true;
-			j.src =
-					'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-MVWDWT7');
-	</script>
+    <script async src="libs/GTM.js"></script>
 	<!-- Google Tag Manager END -->
 
 	<!-- Yandex.Metrika START -->
-	<script type="text/javascript"></script>
+	<script async src="libs/tag.js"></script>
 	<noscript><div><img src="https://mc.yandex.ru/watch/36791025" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika END -->
 
@@ -346,20 +316,33 @@
 						</svg>
 					</div>
 					<h4 class="modal-contact-form__title">Оставьте контактные данные и с Вами свяжутся для анализа!</h4>
-					<form action="#" class="modal-contact-form__form">
+					<form action="//outved.pro/wp-content/themes/outved/send-free-analyz-recaptcha.php" class="modal-contact-form__form outved-send-form" method="POST" onsubmit="ga('send', 'event', 'modal-free-analyz', 'send'); yaCounter36791025.reachGoal('modal-free-analyz'); return true;">
 						<div class="custom-input custom-input--gray mb-2">
-							<input type="text" name="name" placeholder="Имя" required>
+							<input type="text" name="DATA[NAME]" placeholder="Имя" required>
 						</div>
 						<div class="custom-input custom-input--gray mb-2">
-							<input type="tel" name="phone" placeholder="Телефон" required>
+							<input type="tel" name="DATA[PHONE_WORK]" placeholder="Телефон" required>
 						</div>
 						<div class="custom-input custom-input--gray mb-2">
-							<input type="email" name="email" placeholder="Email" required>
+							<input type="email" name="DATA[EMAIL_WORK]" placeholder="Email" required>
 						</div>
 						<div class="custom-textarea custom-textarea--gray mb-2">
-							<textarea name="message" placeholder="Ваше сообщение..." rows="10" maxlength="250" required></textarea>
+							<textarea name="DATA[COMMENTS]" placeholder="Ваше сообщение..." rows="10" maxlength="250" required></textarea>
 						</div>
-						<button type="submit" class="button button--accent text-uppercase px-4 w-100">Оставить запрос на диагностику</button>
+                        <div>
+
+                            <input type="hidden" name="success__url" value="/freediag/thankyou/" />
+                            <input type="hidden" name="cid" value="<?php echo $_COOKIE["_ga"]; ?>" class="CID">
+                            <input type="hidden" name="this_url" id="this_url" value="/freediag/" />
+                            <input type="hidden" name="aimlink" value="https://outved.pro/freediag/" class="aimlink" />
+                            <input type="hidden" name="DATA[TITLE]" value="Диагностика (лендинг)" class="aim" />
+                            <input type="hidden" name="DATA[SOURSE_ID]" value="14" />
+                            <input type="hidden" name="DATA[cdr_id]" value="" />
+                            <input type="hidden" name="utm_source" value="" /> <input type="hidden" name="utm_medium" value="" />
+                            <input type="hidden" name="utm_term" value="" /> <input type="hidden" name="utm_content" value="" />
+                            <input type="hidden" name="utm_campaign" value="" />
+                        </div>
+						<button type="submit" class="button button--accent text-uppercase px-4 w-100" id="btn">Оставить запрос на диагностику</button>
 					</form>
 				</div>
 			</div>
@@ -455,17 +438,29 @@
 						</svg>
 					</div>
 				</div>
-				<form action="#" class="contact-form__form">
+				<form action="//outved.pro/wp-content/themes/outved/send-free-analyz-recaptcha.php" class="contact-form__form outved-send-form" method="POST" onsubmit="ga('send', 'event', 'modal-free-analyz', 'send'); yaCounter36791025.reachGoal('modal-free-analyz'); return true;">
 					<div class="custom-input mb-2">
-						<input type="text" name="name" placeholder="Имя" required>
+						<input type="text" name="DATA[NAME]" placeholder="Имя" required>
 					</div>
 					<div class="custom-input mb-2">
-						<input type="tel" name="phone" placeholder="Телефон" required>
+						<input type="tel" name="DATA[PHONE_WORK]" placeholder="Телефон" required>
 					</div>
 					<div class="custom-input mb-2">
-						<input type="email" name="email" placeholder="Email" required>
+						<input type="email" name="DATA[EMAIL_WORK]" placeholder="Email" required>
 					</div>
-					<button type="submit" class="button button--accent text-uppercase px-4">Зарегистрироваться на бесплатную диагностику</button>
+					<div>
+						<input type="hidden" name="success__url" value="/freediag/thankyou/" />
+						<input type="hidden" name="cid" value="<?php echo $_COOKIE["_ga"]; ?>" class="CID">
+						<input type="hidden" name="this_url" id="this_url" value="/freediag/" />
+						<input type="hidden" name="aimlink" value="https://outved.pro/freediag/" class="aimlink" />
+						<input type="hidden" name="DATA[TITLE]" value="Диагностика (лендинг)" class="aim" />
+						<input type="hidden" name="DATA[SOURSE_ID]" value="14" />
+						<input type="hidden" name="DATA[cdr_id]" value="" />
+						<input type="hidden" name="utm_source" value="" /> <input type="hidden" name="utm_medium" value="" />
+						<input type="hidden" name="utm_term" value="" /> <input type="hidden" name="utm_content" value="" />
+						<input type="hidden" name="utm_campaign" value="" />
+					</div>
+					<button type="submit" class="button button--accent text-uppercase px-4 form1_btn_2" id="btn">Зарегистрироваться на бесплатную диагностику</button>
 				</form>
 			</div>
 		</section>
@@ -1393,17 +1388,31 @@
 						</svg>
 					</div>
 				</div>
-				<form action="#" class="contact-form__form">
+				<form action="//outved.pro/wp-content/themes/outved/send-free-analyz-recaptcha.php" class="contact-form__form outved-send-form" method="POST" onsubmit="ga('send', 'event', 'modal-free-analyz', 'send'); yaCounter36791025.reachGoal('modal-free-analyz'); return true;">
 					<div class="custom-input custom-input--transparent mb-2">
-						<input type="text" name="name" placeholder="Имя" required>
+						<input type="text" name="DATA[NAME]" placeholder="Имя" required>
 					</div>
 					<div class="custom-input custom-input--transparent mb-2">
-						<input type="tel" name="phone" placeholder="Телефон" required>
+						<input type="tel" name="DATA[PHONE_WORK]" placeholder="Телефон" required>
 					</div>
 					<div class="custom-input custom-input--transparent mb-2">
-						<input type="email" name="email" placeholder="Email" required>
+						<input type="email" name="DATA[EMAIL_WORK]" placeholder="Email" required>
 					</div>
-					<button type="submit" class="button button--white text-uppercase px-4">Зарегистрироваться на бесплатные вебинары</button>
+                    <div>
+                        <input type="hidden" name="success__url" value="/freediag/thankyou/" />
+                        <input type="hidden" name="cid" value="<?php echo $_COOKIE["_ga"]; ?>" class="CID">
+                        <input type="hidden" name="this_url" id="this_url" value="/freediag/" />
+                        <input type="hidden" name="aimlink" value="https://outved.pro/freediag/" class="aimlink" />
+                        <input type="hidden" name="DATA[TITLE]" value="Диагностика (лендинг)" class="aim" />
+                        <input type="hidden" name="DATA[SOURSE_ID]" value="14" />
+                        <input type="hidden" name="DATA[cdr_id]" value="" />
+                        <input type="hidden" name="utm_source" value="" />
+                        <input type="hidden" name="utm_medium" value="" />
+                        <input type="hidden" name="utm_term" value="" />
+                        <input type="hidden" name="utm_content" value="" />
+                        <input type="hidden" name="utm_campaign" value="" />
+                    </div>
+					<button type="submit" class="button button--white text-uppercase px-4 form1_btn" id="btn">Зарегистрироваться на бесплатные вебинары</button>
 				</form>
 			</div>
 		</section>
