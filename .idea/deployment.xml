@@ -135,6 +135,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="Outved.pro">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="Party">
         <serverdata>
           <mappings>

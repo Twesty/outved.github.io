@@ -74,6 +74,7 @@ $( document ).ready(function () {
 
         input.intlTelInput({
             initialCountry: "UA",
+            preferredCountries: ["ua", "ru"],
             separateDialCode: true
         });
     }

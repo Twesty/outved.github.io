@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" prefix="og: http://ogp.me/ns#">
 
 <head>
 
@@ -14,6 +14,7 @@
 	<meta property="og:image" content="path/to/image.jpg">
 
     <!-- Social meta tags Start -->
+	<meta property="og:site_name" content="OUTVED"/>
     <meta property="og:title" content="Запуск экспорта, развитие, масштабирование на внешних B2B рынках">
     <meta property="og:description" content="Услуги в организации внешнеэкономической деятельности. Старт Экспорта и/или Импорта в форматах: Обучение, Консалтинг, Проекты 'под ключ', аутсорсинг ВЭД. Алгоритм 'Экспорт за 3 месяца'..">
     <meta property="og:image" content="https://raw.githubusercontent.com/Twesty/outved.github.io/master/app/img/favicon/social.png">
@@ -25,6 +26,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <!-- Social meta tags End -->
 
+	<link rel="https://api.w.org/" href="https://outved.pro/wp-json/" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://outved.pro/xmlrpc.php?rsd" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://outved.pro/xmlrpc.php?rsd" />
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.ico">
     <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.ico">
@@ -37,9 +41,89 @@
 	<link rel="preload" href="css/fonts.min.css">
 	<link rel="stylesheet" href="css/pages/page-home/home.min.css">
 
+	<!-- Google Analytics START -->
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+
+		gtag('config', 'UA-34011940-1');
+
+		setTimeout(function () {
+			gtag('event', location.pathname, {
+				'event_category': 'Новый посетитель'
+			});
+		}, 10000);
+	</script>
+	<!-- Google Analytics END -->
+
+	<!-- Google Tag Manager START -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start':
+						new Date().getTime(), event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-MVWDWT7');
+	</script>
+	<!-- Google Tag Manager END -->
+
+	<!-- Yandex.Metrika START -->
+	<script type="text/javascript">
+		(function (d, w, c) {
+			(w[c] = w[c] || []).push(function () {
+				try {
+					w.yaCounter36791025 = new Ya.Metrika({
+						id: 36791025,
+						clickmap: true,
+						trackLinks: true,
+						accurateTrackBounce: true,
+						webvisor: true
+					});
+				} catch (e) {
+				}
+			});
+
+			var n = d.getElementsByTagName("script")[0],
+					s = d.createElement("script"),
+					f = function () {
+						n.parentNode.insertBefore(s, n);
+					};
+			s.type = "text/javascript";
+			s.async = true;
+			s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+			if (w.opera == "[object Opera]") {
+				d.addEventListener("DOMContentLoaded", f, false);
+			} else {
+				f();
+			}
+		})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/36791025" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika END -->
+
 </head>
 
 <body>
+
+	<!-- Google Tag Manager (noscript) START -->
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVWDWT7"
+				height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<!-- Google Tag Manager (noscript) END -->
 
 	<header class="header">
 		<div class="header__top">
@@ -1544,6 +1628,17 @@
 
 	<script src="js/scripts.min.js"></script>
 	<script src="js/dest/pages/page-home/home.min.js"></script>
+
+	<script async src="https://cdn.bitrix24.ru/b650793/crm/tag/call.tracker.js?26744106"></script>
+	<script async src="https://cdn.bitrix24.ru/b650793/crm/site_button/loader_2_0e7x22.js?1604646404"></script>
+
+	<script type="text/javascript" async src="//www.googleadservices.com/pagead/conversion_async.js"></script>
+
+	<script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/868119250/?random=1606222228728&amp;cv=9&amp;fst=1606222228728&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=900&amp;u_w=1600&amp;u_ah=860&amp;u_aw=1600&amp;u_cd=24&amp;u_his=5&amp;u_tz=120&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgb41&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Foutved.pro%2Ffreediagnos%2F&amp;tiba=%D0%94%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B0&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script>
+
+	<script src="libs/postWithCaptcha.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+	<script src='https://www.google.com/recaptcha/api.js?render=6LfbFrkUAAAAAJPe6m0lWVzAhYs1FLGnMIrgk_NI'></script>
 
 </body>
 
