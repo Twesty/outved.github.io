@@ -4,7 +4,7 @@
     <list default="true" id="22d3198d-8463-4647-b81d-64336c048e1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +84,8 @@
       <workItem from="1611557089793" duration="2980000" />
       <workItem from="1611560477993" duration="2446000" />
       <workItem from="1611566229200" duration="2870000" />
-      <workItem from="1611583342494" duration="799000" />
+      <workItem from="1611583342494" duration="829000" />
+      <workItem from="1611584324358" duration="40000" />
     </task>
     <servers />
   </component>
