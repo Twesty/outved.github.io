@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22d3198d-8463-4647-b81d-64336c048e1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/pages/page-home/home.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/pages/page-home/home.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/dest/pages/page-home/home.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/dest/pages/page-home/home.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/src/pages/page-home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/src/pages/page-home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_mixins/adaptive-size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_mixins/adaptive-size.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/css/pages/page-home" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -87,7 +80,7 @@
       <workItem from="1611213832808" duration="4000" />
       <workItem from="1611281757966" duration="40072000" />
       <workItem from="1611486005477" duration="783000" />
-      <workItem from="1611557089793" duration="1443000" />
+      <workItem from="1611557089793" duration="2171000" />
     </task>
     <servers />
   </component>
