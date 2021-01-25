@@ -155,13 +155,13 @@
 
   &__number {
     margin-right: 15px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     color: rgba(255, 255, 255, .25);
   }
 
   &__title {
-    @include adaptive-size(font-size, 18, 15);
+    @include adaptive-size(font-size, 17, 15);
     font-weight: 700;
   }
 
@@ -203,7 +203,7 @@
     @include adaptive-size(padding-bottom, 30, 15);
     @include adaptive-size(padding-right, 40, 15);
     @include adaptive-size(padding-left, 55, 15);
-    @include adaptive-size(font-size, 16, 14);
+    @include adaptive-size(font-size, 15, 14);
     font-weight: 300;
 
     ul {
