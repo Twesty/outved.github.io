@@ -13,7 +13,15 @@ $( document ).ready(function () {
 
             contents.slick({
                 waitForAnimate: false,
-                swipe: false
+                swipe: false,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            adaptiveHeight: true
+                        }
+                    }
+                ]
             });
 
             arrowNext.on('click', function () {
