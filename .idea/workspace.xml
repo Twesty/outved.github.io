@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22d3198d-8463-4647-b81d-64336c048e1a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/css/fonts.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/fonts.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/fonts.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +85,7 @@
       <workItem from="1611560477993" duration="2446000" />
       <workItem from="1611566229200" duration="2870000" />
       <workItem from="1611583342494" duration="829000" />
-      <workItem from="1611584324358" duration="472000" />
+      <workItem from="1611584324358" duration="649000" />
     </task>
     <servers />
   </component>
