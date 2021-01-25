@@ -17,6 +17,13 @@
     }
   }
 
+
+
+}
+
+// ≥1280px
+@include media-breakpoint-down(lg) {
+
   .cover {
     &__tabs {
       flex-direction: column;
@@ -43,12 +50,6 @@
 
     }
   }
-
-}
-
-// ≥1280px
-@include media-breakpoint-down(lg) {
-
 
 }
 

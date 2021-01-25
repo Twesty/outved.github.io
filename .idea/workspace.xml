@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22d3198d-8463-4647-b81d-64336c048e1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/pages/page-home/home.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/pages/page-home/home.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/dest/pages/page-home/home.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/dest/pages/page-home/home.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/country-code/intlTelInput-jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/country-code/intlTelInput-jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/pages/page-home/_home-responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/pages/page-home/_home-responsive.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,7 +83,7 @@
       <workItem from="1611486005477" duration="783000" />
       <workItem from="1611557089793" duration="2980000" />
       <workItem from="1611560477993" duration="2446000" />
-      <workItem from="1611566229200" duration="43000" />
+      <workItem from="1611566229200" duration="375000" />
     </task>
     <servers />
   </component>
