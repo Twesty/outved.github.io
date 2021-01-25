@@ -68,14 +68,14 @@ gulp.task('scripts', function() {
 
 // HTML Live Reload
 gulp.task('code', function() {
-	return gulp.src('app/*.php')
+	return gulp.src('app/*.html')
 	.pipe(browserSync.reload({ stream: true }))
 });
 
 gulp.task('watch', function() {
 	gulp.watch('app/'+syntax+'/**/*.'+syntax+'', gulp.parallel('styles'));
 	gulp.watch(['libs/**/*.js', 'app/js/common.js'], gulp.parallel('scripts'));
-	gulp.watch('app/*.php', gulp.parallel('code'));
+	gulp.watch('app/*.html', gulp.parallel('code'));
 
 	// Page scripts
 	gulp.watch(['app/js/src/pages/page-home/home.js'], gulp.parallel('page-home-scripts'));
