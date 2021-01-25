@@ -13,7 +13,6 @@ $( document ).ready(function () {
 
             contents.slick({
                 waitForAnimate: false,
-                adaptiveHeight: true,
                 swipe: false
             });
 

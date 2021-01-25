@@ -105,4 +105,15 @@
 // ≥768px
 @include media-breakpoint-down(sm) {
 
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .contact-form {
+    &__wrap {
+      box-shadow: 3px 2px 20px rgba(0, 0, 0, .13);
+    }
+  }
+
 }

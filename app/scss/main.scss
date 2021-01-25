@@ -407,8 +407,8 @@ b, strong {
   }
 
   &__wrap {
-    @include adaptive-size(padding-top, 60, 70);
-    @include adaptive-size(padding-bottom, 60, 70);
+    @include adaptive-size(padding-top, 60, 50);
+    @include adaptive-size(padding-bottom, 60, 50);
     @include adaptive-size(padding-left, 80, 15);
     @include adaptive-size(padding-right, 80, 15);
     background-position: center;
